@@ -729,27 +729,7 @@
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Try" id="46"/>
-      <object class="Transition" serializationversion="3" id="47">
-        <property name="name" class="String">Test Value</property>
-        <property name="stepAction" class="TestValue" serializationversion="0">
-          <property name="condition" class="Expression" serializationversion="1">
-            <property name="text" class="String">iteration() &lt;=20</property>
-          </property>
-        </property>
-        <property name="elementFinders" idref="14"/>
-        <property name="errorHandler" class="ErrorHandler" serializationversion="0">
-          <property name="reportingViaAPI" class="Boolean">false</property>
-          <property name="reportingViaLog" class="Boolean">false</property>
-          <property name="controlFlow" class="kapow.robot.robomaker.robot.ControlFlow$NextAlternative"/>
-        </property>
-        <property name="comment">
-          <null/>
-        </property>
-        <property name="enabled" idref="11"/>
-        <property name="changedProperties" class="java.util.HashSet"/>
-      </object>
-      <object class="Transition" serializationversion="3" id="48">
+      <object class="Transition" serializationversion="3" id="46">
         <property name="name" class="String">Next</property>
         <property name="stepAction" class="Next"/>
         <property name="elementFinders" idref="14"/>
@@ -760,8 +740,7 @@
         <property name="enabled" idref="11"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="End" id="49"/>
-      <object class="End" id="50"/>
+      <object class="End" id="47"/>
     </steps>
     <blockEndStep class="BlockEndStep"/>
     <edges class="ArrayList">
@@ -884,18 +863,6 @@
       <object class="TransitionEdge">
         <from idref="46"/>
         <to idref="47"/>
-      </object>
-      <object class="TransitionEdge">
-        <from idref="46"/>
-        <to idref="50"/>
-      </object>
-      <object class="TransitionEdge">
-        <from idref="47"/>
-        <to idref="48"/>
-      </object>
-      <object class="TransitionEdge">
-        <from idref="48"/>
-        <to idref="49"/>
       </object>
     </edges>
   </property>

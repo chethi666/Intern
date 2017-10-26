@@ -483,6 +483,18 @@
       <object class="Transition" serializationversion="3" id="32">
         <property name="name" class="String">Extract Content</property>
         <property name="stepAction" class="Extract" serializationversion="1">
+          <property name="dataConverters" class="DataConverters">
+            <element class="Extract2DataConverter">
+              <property name="pattern" class="kapow.robot.plugin.common.support.expression.stringexpr.PatternValueStringExpression">
+                <property name="value" class="String">.* -.(.*)</property>
+              </property>
+            </element>
+            <element class="Extract2DataConverter">
+              <property name="pattern" class="kapow.robot.plugin.common.support.expression.stringexpr.PatternValueStringExpression">
+                <property name="value" class="String">(.*).....Editor.*</property>
+              </property>
+            </element>
+          </property>
           <property name="attributeName" class="kapow.robot.plugin.common.support.AttributeName2">
             <property name="name" class="String">newsArticle.Content</property>
           </property>
