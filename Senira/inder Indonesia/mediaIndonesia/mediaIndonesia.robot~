@@ -768,7 +768,7 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
         <property name="name" class="String">Test Value</property>
         <property name="stepAction" class="TestValue" serializationversion="0">
           <property name="condition" class="Expression" serializationversion="1">
-            <property name="text" class="String">iteration() &lt;4</property>
+            <property name="text" class="String">iteration() &lt;10</property>
           </property>
         </property>
         <property name="elementFinders" class="ElementFinders"/>
@@ -786,6 +786,33 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
         </property>
       </object>
       <object class="Transition" serializationversion="3" id="34">
+        <property name="name" class="String">Click Selanjutnya</property>
+        <property name="stepAction" class="Click" serializationversion="0">
+          <property name="browserConfigurationSpecification" class="BrowserConfigurationSpecificationWebKit" serializationversion="23">
+            <property name="ancestorProvider" class="BrowserConfigurationSpecificationAncestorProviderForStep"/>
+          </property>
+        </property>
+        <property name="elementFinders" class="ElementFinders">
+          <object class="DefaultNamedElementAwareDOMElementFinder" serializationversion="4">
+            <property name="nodePath" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
+              <property name="value" class="String">.*.div.div.div.div.div.div.div.a</property>
+            </property>
+            <property name="attributeName" class="String">class</property>
+            <property name="attributeValue" class="kapow.robot.plugin.common.support.predicate.unary.string.FixedStringPredicate">
+              <property name="text" class="String">a-button js-ajax-morenews</property>
+            </property>
+          </object>
+        </property>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="3"/>
+        <property name="changedProperties" class="java.util.HashSet">
+          <element class="String">name</element>
+        </property>
+      </object>
+      <object class="Transition" serializationversion="3" id="35">
         <property name="name" class="String">Next</property>
         <property name="stepAction" class="Next"/>
         <property name="elementFinders" class="ElementFinders"/>
@@ -798,8 +825,8 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
           <element class="String">name</element>
         </property>
       </object>
-      <object class="End" id="35"/>
       <object class="End" id="36"/>
+      <object class="End" id="37"/>
     </steps>
     <blockEndStep class="BlockEndStep"/>
     <edges class="ArrayList">
@@ -905,7 +932,7 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
       </object>
       <object class="TransitionEdge">
         <from idref="32"/>
-        <to idref="36"/>
+        <to idref="37"/>
       </object>
       <object class="TransitionEdge">
         <from idref="33"/>
@@ -914,6 +941,10 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
       <object class="TransitionEdge">
         <from idref="34"/>
         <to idref="35"/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="35"/>
+        <to idref="36"/>
       </object>
     </edges>
   </property>
