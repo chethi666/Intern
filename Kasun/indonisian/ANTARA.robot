@@ -65,7 +65,7 @@
             <property name="attributeValue" class="String">{
   "Schema" : "SOCIAL_MEDIA",
   "Source" : "nationalcompass",
-  "SourceURL" : "http://nasional.kompas.com/",
+  "SourceUrl" : "http://nasional.kompas.com/",
   "ContentUrl" : "",
   "Author" : "",
   "Title" : "",

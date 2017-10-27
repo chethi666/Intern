@@ -491,7 +491,7 @@
             </element>
             <element class="Extract2DataConverter">
               <property name="pattern" class="kapow.robot.plugin.common.support.expression.stringexpr.PatternValueStringExpression">
-                <property name="value" class="String">(.*).(Ybh).*</property>
+                <property name="value" class="String">(.*).....Editor.*</property>
               </property>
             </element>
           </property>
