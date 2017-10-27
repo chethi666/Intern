@@ -748,6 +748,9 @@
                   <property name="fileName" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
                     <property name="value" class="String">screenshot.jpg</property>
                   </property>
+                  <property name="contentType" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
+                    <property name="value" class="String">image/jpeg</property>
+                  </property>
                   <property name="contentTransferEncoding" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
                     <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
                       <property name="name" idref="0"/>

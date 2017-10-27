@@ -56,7 +56,7 @@
           <property name="value" class="AttributeAssignment">
             <property name="attributeValue" class="String">{
   "Schema" : "SOCIAL_MEDIA",
-  "Source" : "MHPparty",
+  "Source" : "Meral_Details",
   "SourceUrl" : "http://www.meralaksener.com.tr/",
   "ContentUrl" : "",
   "Author" : "",
