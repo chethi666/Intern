@@ -542,7 +542,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="name" class="String">Call REST Web Service</property>
         <property name="stepAction" class="CallRESTWebService2" serializationversion="1">
           <property name="urlProvider" class="Expression" serializationversion="1">
-            <property name="text" class="String">&gt;&gt;&lt;&lt;+Config.DocumentRepository+&gt;&gt;documents&lt;&lt;</property>
+            <property name="text" class="String">&gt;&gt;&lt;&lt;+GlobalConfig.DocumentRepository+&gt;&gt;documents&lt;&lt;</property>
           </property>
           <property name="request" class="kapow.robot.plugin.common.stateprocessor.rest.PostRestRequest">
             <property name="body" class="kapow.robot.plugin.common.stateprocessor.rest.RawBodyContent">
@@ -647,7 +647,7 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
         <property name="name" class="String">Call REST Web Service</property>
         <property name="stepAction" class="CallRESTWebService2" serializationversion="1">
           <property name="urlProvider" class="Expression" serializationversion="1">
-            <property name="text" class="String">&gt;&gt;&lt;&lt;+Config.DocumentRepository+&gt;&gt;documents/&lt;&lt; + DocumentID + &gt;&gt;/attachments&lt;&lt;</property>
+            <property name="text" class="String">&gt;&gt;&lt;&lt;+GlobalConfig.DocumentRepository+&gt;&gt;documents/&lt;&lt; + DocumentID + &gt;&gt;/attachments&lt;&lt;</property>
           </property>
           <property name="request" class="kapow.robot.plugin.common.stateprocessor.rest.PostRestRequest">
             <property name="body" class="kapow.robot.plugin.common.stateprocessor.rest.ParameterBodyContent">
