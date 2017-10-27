@@ -52,7 +52,7 @@
   "PublishDate" : "",
   "Text" : "",
   "Language" : "tr",
-  "SocialNetwork" : "Blog",
+  "SocialNetwork" : "News",
   "Country" : "TR"
 }</property>
             <property name="currentlyAssigned" class="Boolean">true</property>
