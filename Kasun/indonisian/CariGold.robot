@@ -5,11 +5,11 @@
       <version>9.7.6</version>
     </saved-by-versions>
     <referenced-types>
-      <type name="comments"/>
+      <type name="Commemnts"/>
     </referenced-types>
     <referenced-snippets/>
     <typed-variables>
-      <typed-variable name="Comments" type-name="comments"/>
+      <typed-variable name="Comments" type-name="Commemnts"/>
     </typed-variables>
     <global-variables/>
     <parameters/>
@@ -32,12 +32,6 @@
         <property name="type" class="SimpleTypeReference">
           <property name="simpleTypeId" class="Integer">3</property>
         </property>
-      </property>
-    </object>
-    <object class="Variable" serializationversion="1">
-      <property name="name" class="String">ArticleUrl</property>
-      <property name="initialAssignment" class="InitialVariableAssignment">
-        <property name="type" idref="1"/>
       </property>
     </object>
     <object class="Variable" serializationversion="1">
@@ -104,7 +98,7 @@
       <property name="name" class="String">Comments</property>
       <property name="initialAssignment" class="InitialVariableAssignment">
         <property name="type" class="TypeReference" serializationversion="0">
-          <property name="typeName" class="String">comments</property>
+          <property name="typeName" class="String">Commemnts</property>
         </property>
       </property>
     </object>
@@ -808,7 +802,7 @@
             </element>
           </property>
           <property name="attributeName" class="kapow.robot.plugin.common.support.AttributeName2">
-            <property name="name" class="String">Comments.created_time</property>
+            <property name="name" class="String">Comments.Created_Time</property>
           </property>
         </property>
         <property name="elementFinders" class="ElementFinders">
@@ -838,7 +832,7 @@
         <property name="name" class="String">Assign Comment Date</property>
         <property name="stepAction" class="AssignVariable" serializationversion="4">
           <property name="stringExpr" class="Expression" serializationversion="1">
-            <property name="text" class="String">replaceText(replaceText(Comments.created_time," ","T"),".0","")</property>
+            <property name="text" class="String">replaceText(replaceText(Comments.Created_Time," ","T"),".0","")</property>
           </property>
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
             <property name="name" idref="0"/>
@@ -879,10 +873,10 @@
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
       <object class="Transition" serializationversion="3" id="58">
-        <property name="name" class="String">Extract Name</property>
+        <property name="name" class="String">Extract Author Name</property>
         <property name="stepAction" class="Extract" serializationversion="1">
           <property name="attributeName" class="kapow.robot.plugin.common.support.AttributeName2">
-            <property name="name" class="String">Comments.name</property>
+            <property name="name" class="String">Comments.Author_Name</property>
           </property>
         </property>
         <property name="elementFinders" class="ElementFinders">
@@ -974,7 +968,7 @@
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
-              <property name="name" class="String">Comments.name</property>
+              <property name="name" class="String">Comments.Author_Name</property>
             </property>
           </property>
         </property>
