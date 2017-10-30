@@ -35,12 +35,6 @@
       </property>
     </object>
     <object class="Variable" serializationversion="1">
-      <property name="name" class="String">ArticleUrl</property>
-      <property name="initialAssignment" class="InitialVariableAssignment">
-        <property name="type" idref="1"/>
-      </property>
-    </object>
-    <object class="Variable" serializationversion="1">
       <property name="name" class="String" id="2">Author</property>
       <property name="initialAssignment" class="InitialVariableAssignment">
         <property name="type" idref="1"/>
