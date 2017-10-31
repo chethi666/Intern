@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<object class="kapow.robot.common.domain.Type" serializationversion="0">
+  <prologue>
+    <saved-by-versions>
+      <version>9.4.8</version>
+      <version>9.7.3</version>
+    </saved-by-versions>
+  </prologue>
+  <property name="attributes" class="kapow.robot.common.domain.Attributes">
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="0">
+      <property name="name" class="String">ProfileURL</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.TextAttributeType" id="0"/>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="0">
+      <property name="name" class="String">EventIds</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.JSONAttributeType"/>
+      <property name="defaultValue" class="String">[]</property>
+    </object>
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="0">
+      <property name="name" class="String">EntityId</property>
+      <property name="type" idref="0"/>
+    </object>
+  </property>
+</object>
