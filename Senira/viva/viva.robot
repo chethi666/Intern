@@ -93,7 +93,7 @@
         <property name="type" idref="0"/>
         <property name="assignments" class="AttributeAssignments">
           <property name="value" class="AttributeAssignment">
-            <property name="attributeValue" class="String">http://forum.viva.co.id/</property>
+            <property name="attributeValue" class="String">http://www.viva.co.id </property>
             <property name="currentlyAssigned" class="Boolean">true</property>
             <property name="lastKnownAttributeType" class="java.lang.Class" id="2">kapow.robot.plugin.common.domain.TextAttributeType</property>
           </property>
@@ -177,7 +177,7 @@
         <property name="type" idref="0"/>
         <property name="assignments" class="AttributeAssignments">
           <property name="value" class="AttributeAssignment">
-            <property name="attributeValue" class="String">forum.viva.co.id</property>
+            <property name="attributeValue" class="String">http://www.viva.co.id </property>
             <property name="currentlyAssigned" class="Boolean">true</property>
             <property name="lastKnownAttributeType" idref="2"/>
           </property>
