@@ -77,11 +77,16 @@
         <property name="assignments" class="AttributeAssignments">
           <property name="value" class="AttributeAssignment">
             <property name="attributeValue" class="String">{
+  "like_count" : " ",
   "message" : " ",
+  "id" : " ",
   "created_time" : " ",
   "from" : {
-             "name" : " "
-           }
+             "name" : " ",
+             "id" : " "
+           },
+  "user_likes" : " ",
+  "message_tags" : " "
 }</property>
             <property name="currentlyAssigned" class="Boolean">true</property>
             <property name="lastKnownAttributeType" class="java.lang.Class" id="8">kapow.robot.plugin.common.domain.JSONAttributeType</property>
