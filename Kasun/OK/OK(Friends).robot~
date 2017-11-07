@@ -462,7 +462,11 @@
             </property>
           </object>
         </property>
-        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0">
+          <property name="reportingViaAPI" class="Boolean">false</property>
+          <property name="reportingViaLog" class="Boolean">false</property>
+          <property name="controlFlow" class="kapow.robot.robomaker.robot.ControlFlow$IgnoreAndContinue"/>
+        </property>
         <property name="comment">
           <null/>
         </property>
@@ -670,7 +674,8 @@
         <property name="enabled" idref="19"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="52">
+      <object class="Try" id="52"/>
+      <object class="Transition" serializationversion="3" id="53">
         <property name="name" idref="36"/>
         <property name="stepAction" class="LoadPage2">
           <property name="urlProvider" class="kapow.robot.plugin.common.stepaction.urlprovider2.ExpressionURLProvider2">
@@ -681,14 +686,17 @@
           </property>
         </property>
         <property name="elementFinders" idref="31"/>
-        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0">
+          <property name="reportingViaAPI" class="Boolean">false</property>
+          <property name="reportingViaLog" class="Boolean">false</property>
+          <property name="controlFlow" class="kapow.robot.robomaker.robot.ControlFlow$NextAlternative"/>
+        </property>
         <property name="comment">
           <null/>
         </property>
         <property name="enabled" idref="19"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Try" id="53"/>
       <object class="Transition" serializationversion="3" id="54">
         <property name="name" class="String">For Each Tag Path</property>
         <property name="stepAction" class="ForEachTagPath" serializationversion="0">
@@ -702,11 +710,7 @@
             </property>
           </object>
         </property>
-        <property name="errorHandler" class="ErrorHandler" serializationversion="0">
-          <property name="reportingViaAPI" class="Boolean">false</property>
-          <property name="reportingViaLog" class="Boolean">false</property>
-          <property name="controlFlow" class="kapow.robot.robomaker.robot.ControlFlow$NextAlternative"/>
-        </property>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
         <property name="comment">
           <null/>
         </property>
@@ -917,7 +921,11 @@
             </property>
           </object>
         </property>
-        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0">
+          <property name="reportingViaAPI" class="Boolean">false</property>
+          <property name="reportingViaLog" class="Boolean">false</property>
+          <property name="controlFlow" class="kapow.robot.robomaker.robot.ControlFlow$IgnoreAndContinue"/>
+        </property>
         <property name="comment">
           <null/>
         </property>
@@ -1077,7 +1085,11 @@
             </property>
           </object>
         </property>
-        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0">
+          <property name="reportingViaAPI" class="Boolean">false</property>
+          <property name="reportingViaLog" class="Boolean">false</property>
+          <property name="controlFlow" class="kapow.robot.robomaker.robot.ControlFlow$IgnoreAndContinue"/>
+        </property>
         <property name="comment">
           <null/>
         </property>
@@ -1123,7 +1135,11 @@
             </property>
           </object>
         </property>
-        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0">
+          <property name="reportingViaAPI" class="Boolean">false</property>
+          <property name="reportingViaLog" class="Boolean">false</property>
+          <property name="controlFlow" class="kapow.robot.robomaker.robot.ControlFlow$IgnoreAndContinue"/>
+        </property>
         <property name="comment">
           <null/>
         </property>
@@ -1248,7 +1264,6 @@
         <property name="enabled" idref="19"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="End" id="81"/>
     </steps>
     <blockEndStep class="BlockEndStep"/>
     <edges class="ArrayList">
@@ -1345,12 +1360,12 @@
         <to idref="53"/>
       </object>
       <object class="TransitionEdge">
-        <from idref="53"/>
-        <to idref="54"/>
+        <from idref="52"/>
+        <to idref="70"/>
       </object>
       <object class="TransitionEdge">
         <from idref="53"/>
-        <to idref="81"/>
+        <to idref="54"/>
       </object>
       <object class="TransitionEdge">
         <from idref="54"/>
