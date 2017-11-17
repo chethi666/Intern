@@ -688,7 +688,33 @@
         </property>
       </object>
       <object class="Transition" serializationversion="3" id="45">
-        <property name="name" class="String" id="46">Call REST Web Service</property>
+        <property name="name" class="String">Wait</property>
+        <property name="stepAction" class="Wait2">
+          <property name="seconds" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
+            <property name="value" class="String">2.0</property>
+          </property>
+        </property>
+        <property name="elementFinders" idref="16"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="12"/>
+        <property name="changedProperties" class="java.util.HashSet"/>
+      </object>
+      <object class="Transition" serializationversion="3" id="46">
+        <property name="name" class="String">Change Proxy</property>
+        <property name="stepAction" class="ChangeProxy"/>
+        <property name="elementFinders" idref="16"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="12"/>
+        <property name="changedProperties" class="java.util.HashSet"/>
+      </object>
+      <object class="Transition" serializationversion="3" id="47">
+        <property name="name" class="String" id="48">Call REST Web Service</property>
         <property name="stepAction" class="CallRESTWebService2" serializationversion="1">
           <property name="urlProvider" class="Expression" serializationversion="1">
             <property name="text" class="String">&gt;&gt;&lt;&lt;+DocumentRepo+&gt;&gt;documents&lt;&lt;</property>
@@ -722,7 +748,7 @@
         <property name="enabled" idref="12"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="47">
+      <object class="Transition" serializationversion="3" id="49">
         <property name="name" class="String">Open Output JSON</property>
         <property name="stepAction" class="OpenVariable">
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -737,7 +763,7 @@
         <property name="enabled" idref="12"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="48">
+      <object class="Transition" serializationversion="3" id="50">
         <property name="name" class="String">Extract Document ID</property>
         <property name="stepAction" class="ExtractJSON2">
           <property name="dataConverters" class="DataConverters">
@@ -761,8 +787,8 @@
         <property name="enabled" idref="12"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="49">
-        <property name="name" idref="46"/>
+      <object class="Transition" serializationversion="3" id="51">
+        <property name="name" idref="48"/>
         <property name="stepAction" class="CallRESTWebService2" serializationversion="1">
           <property name="urlProvider" class="Expression" serializationversion="1">
             <property name="text" class="String">&gt;&gt;&lt;&lt;+DocumentRepo+&gt;&gt;documents/&lt;&lt; + DocumentID + &gt;&gt;/attachments&lt;&lt;</property>
@@ -812,7 +838,7 @@
         <property name="enabled" idref="12"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="50">
+      <object class="Transition" serializationversion="3" id="52">
         <property name="name" class="String">Open Output JSON</property>
         <property name="stepAction" class="OpenVariable">
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -827,8 +853,8 @@
         <property name="enabled" idref="12"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="End" id="51"/>
-      <object class="Transition" serializationversion="3" id="52">
+      <object class="End" id="53"/>
+      <object class="Transition" serializationversion="3" id="54">
         <property name="name" class="String">Extract Posted Date</property>
         <property name="stepAction" class="Extract" serializationversion="1">
           <property name="dataConverters" class="DataConverters">
@@ -860,8 +886,8 @@
         <property name="enabled" idref="12"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Try" id="53"/>
-      <object class="Transition" serializationversion="3" id="54">
+      <object class="Try" id="55"/>
+      <object class="Transition" serializationversion="3" id="56">
         <property name="name" class="String">Extract Title</property>
         <property name="stepAction" class="Extract" serializationversion="1">
           <property name="attributeName" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -886,8 +912,8 @@
         <property name="enabled" idref="12"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="End" id="55"/>
-      <object class="Transition" serializationversion="3" id="56">
+      <object class="End" id="57"/>
+      <object class="Transition" serializationversion="3" id="58">
         <property name="name" idref="21"/>
         <property name="stepAction" class="ForEachTagPath" serializationversion="0">
           <property name="nodePath" idref="22"/>
@@ -911,7 +937,7 @@
         <property name="enabled" idref="12"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="57">
+      <object class="Transition" serializationversion="3" id="59">
         <property name="name" class="String">Click 2 men, 1 woman</property>
         <property name="stepAction" class="Click" serializationversion="0">
           <property name="browserConfigurationSpecification" class="BrowserConfigurationSpecificationWebKit" serializationversion="23">
@@ -976,7 +1002,7 @@
       </object>
       <object class="TransitionEdge">
         <from idref="27"/>
-        <to idref="56"/>
+        <to idref="58"/>
       </object>
       <object class="TransitionEdge">
         <from idref="28"/>
@@ -988,7 +1014,7 @@
       </object>
       <object class="TransitionEdge">
         <from idref="29"/>
-        <to idref="53"/>
+        <to idref="55"/>
       </object>
       <object class="TransitionEdge">
         <from idref="30"/>
@@ -1000,7 +1026,7 @@
       </object>
       <object class="TransitionEdge">
         <from idref="31"/>
-        <to idref="52"/>
+        <to idref="54"/>
       </object>
       <object class="TransitionEdge">
         <from idref="32"/>
@@ -1056,14 +1082,14 @@
       </object>
       <object class="TransitionEdge">
         <from idref="45"/>
+        <to idref="46"/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="46"/>
         <to idref="47"/>
       </object>
       <object class="TransitionEdge">
         <from idref="47"/>
-        <to idref="48"/>
-      </object>
-      <object class="TransitionEdge">
-        <from idref="48"/>
         <to idref="49"/>
       </object>
       <object class="TransitionEdge">
@@ -1075,27 +1101,35 @@
         <to idref="51"/>
       </object>
       <object class="TransitionEdge">
+        <from idref="51"/>
+        <to idref="52"/>
+      </object>
+      <object class="TransitionEdge">
         <from idref="52"/>
-        <to idref="33"/>
-      </object>
-      <object class="TransitionEdge">
-        <from idref="53"/>
-        <to idref="54"/>
-      </object>
-      <object class="TransitionEdge">
-        <from idref="53"/>
-        <to idref="55"/>
+        <to idref="53"/>
       </object>
       <object class="TransitionEdge">
         <from idref="54"/>
-        <to idref="31"/>
+        <to idref="33"/>
       </object>
       <object class="TransitionEdge">
-        <from idref="56"/>
+        <from idref="55"/>
+        <to idref="56"/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="55"/>
         <to idref="57"/>
       </object>
       <object class="TransitionEdge">
-        <from idref="57"/>
+        <from idref="56"/>
+        <to idref="31"/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="58"/>
+        <to idref="59"/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="59"/>
         <to idref="28"/>
       </object>
     </edges>
