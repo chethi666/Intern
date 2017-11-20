@@ -759,6 +759,37 @@
       </object>
       <object class="End" id="47"/>
       <object class="Transition" serializationversion="3" id="48">
+        <property name="name" class="String">Extract Content</property>
+        <property name="stepAction" class="Extract" serializationversion="1">
+          <property name="attributeName" class="kapow.robot.plugin.common.support.AttributeName2">
+            <property name="name" class="String">news.Content</property>
+          </property>
+        </property>
+        <property name="elementFinders" class="ElementFinders">
+          <object class="DefaultNamedElementAwareDOMElementFinder" serializationversion="4">
+            <property name="tagRelation" class="BeforeTagRelation" serializationversion="1">
+              <property name="tagName" class="ElementName">
+                <property name="name" class="String">1</property>
+              </property>
+            </property>
+            <property name="nodePath" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
+              <property name="value" class="String">.*.p</property>
+            </property>
+            <property name="attributeName" class="String">class</property>
+            <property name="attributeValue" class="kapow.robot.plugin.common.support.predicate.unary.string.FixedStringPredicate">
+              <property name="text" class="String">headline--main__short-desc</property>
+            </property>
+            <property name="nodeNumber" class="Integer">9999</property>
+          </object>
+        </property>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="6"/>
+        <property name="changedProperties" class="java.util.HashSet"/>
+      </object>
+      <object class="Transition" serializationversion="3" id="49">
         <property name="name" class="String">Extract Date</property>
         <property name="stepAction" class="ExtractTagAttribute2" serializationversion="3">
           <property name="tagAttr" idref="27"/>
@@ -801,7 +832,38 @@
         <property name="enabled" idref="6"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="49">
+      <object class="Transition" serializationversion="3" id="50">
+        <property name="name" class="String">Extract Author</property>
+        <property name="stepAction" class="Extract" serializationversion="1">
+          <property name="attributeName" class="kapow.robot.plugin.common.support.AttributeName2">
+            <property name="name" class="String">news.Author</property>
+          </property>
+        </property>
+        <property name="elementFinders" class="ElementFinders">
+          <object class="DefaultNamedElementAwareDOMElementFinder" serializationversion="4">
+            <property name="tagRelation" class="BeforeTagRelation" serializationversion="1">
+              <property name="tagName" class="ElementName">
+                <property name="name" class="String">1</property>
+              </property>
+            </property>
+            <property name="nodePath" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
+              <property name="value" class="String">.*.meta</property>
+            </property>
+            <property name="attributeName" class="String">name</property>
+            <property name="attributeValue" class="kapow.robot.plugin.common.support.predicate.unary.string.FixedStringPredicate">
+              <property name="text" class="String">author</property>
+            </property>
+            <property name="nodeNumber" class="Integer">9999</property>
+          </object>
+        </property>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="6"/>
+        <property name="changedProperties" class="java.util.HashSet"/>
+      </object>
+      <object class="Transition" serializationversion="3" id="51">
         <property name="name" class="String">Extract Headline</property>
         <property name="stepAction" class="Extract" serializationversion="1">
           <property name="attributeName" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -877,7 +939,7 @@
       </object>
       <object class="TransitionEdge">
         <from idref="21"/>
-        <to idref="49"/>
+        <to idref="51"/>
       </object>
       <object class="TransitionEdge">
         <from idref="22"/>
@@ -889,7 +951,7 @@
       </object>
       <object class="TransitionEdge">
         <from idref="23"/>
-        <to idref="25"/>
+        <to idref="50"/>
       </object>
       <object class="TransitionEdge">
         <from idref="24"/>
@@ -901,7 +963,7 @@
       </object>
       <object class="TransitionEdge">
         <from idref="25"/>
-        <to idref="48"/>
+        <to idref="49"/>
       </object>
       <object class="TransitionEdge">
         <from idref="26"/>
@@ -925,7 +987,7 @@
       </object>
       <object class="TransitionEdge">
         <from idref="30"/>
-        <to idref="32"/>
+        <to idref="48"/>
       </object>
       <object class="TransitionEdge">
         <from idref="31"/>
@@ -985,10 +1047,18 @@
       </object>
       <object class="TransitionEdge">
         <from idref="48"/>
-        <to idref="28"/>
+        <to idref="32"/>
       </object>
       <object class="TransitionEdge">
         <from idref="49"/>
+        <to idref="28"/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="50"/>
+        <to idref="25"/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="51"/>
         <to idref="23"/>
       </object>
     </edges>
