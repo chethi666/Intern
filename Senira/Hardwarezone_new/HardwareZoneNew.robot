@@ -1142,13 +1142,16 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           <property name="insertJSONMode" class="kapow.robot.plugin.common.stepaction.json.InsertItemMode">
             <property name="value" class="Expression" serializationversion="1">
               <property name="text" class="String">&gt;&gt;{ 
-"Membership": "&lt;&lt;+NameofMembership+&gt;&gt;",
-"NumberOfPosts": "&lt;&lt;+PostNO+&gt;&gt;",
-"JoinDate": "&lt;&lt;+JoinDateStr+&gt;&gt;",
-"Message":  "&lt;&lt; + commentText + &gt;&gt;",
-"CommentAuthor":  "&lt;&lt; +CommentAuthor+ &gt;&gt;",
-"PublishDate":  "&lt;&lt; + comentdatetimestr + &gt;&gt;",
-"PostAuthor": "&lt;&lt;+PostAuthor+&gt;&gt;"
+"like_count": 0 ,
+"message": "&lt;&lt; + commentText + &gt;&gt;",
+"id": "",
+"created_time": "&lt;&lt; + comentdatetimestr + &gt;&gt;",
+"from": {
+	"name": "&lt;&lt; +CommentAuthor+ &gt;&gt;",
+	"id": ""
+},
+"user_likes": false,
+"message_tags": null
 } &lt;&lt;</property>
             </property>
           </property>
