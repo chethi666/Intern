@@ -5,12 +5,12 @@
       <version>9.7.6</version>
     </saved-by-versions>
     <referenced-types>
-      <type name="comments"/>
+      <type name="Comments"/>
       <type name="NewsArticle"/>
     </referenced-types>
     <referenced-snippets/>
     <typed-variables>
-      <typed-variable name="Comments" type-name="comments"/>
+      <typed-variable name="Comments" type-name="Comments"/>
       <typed-variable name="News" type-name="NewsArticle"/>
     </typed-variables>
     <global-variables/>
@@ -40,7 +40,7 @@
       <property name="name" class="String">Comments</property>
       <property name="initialAssignment" class="InitialVariableAssignment">
         <property name="type" class="TypeReference" serializationversion="0">
-          <property name="typeName" class="String">comments</property>
+          <property name="typeName" class="String">Comments</property>
         </property>
       </property>
     </object>
