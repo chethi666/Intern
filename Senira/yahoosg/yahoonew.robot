@@ -689,7 +689,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="name" class="String">Call REST Web Service</property>
         <property name="stepAction" class="CallRESTWebService2" serializationversion="1">
           <property name="urlProvider" class="Expression" serializationversion="1">
-            <property name="text" class="String">&gt;&gt;&lt;&lt;+GlobalConfig.DocumentRepository+&gt;&gt;documents/&lt;&lt; </property>
+            <property name="text" class="String">&gt;&gt;&lt;&lt;+GlobalConfig.DocumentRepository+&gt;&gt;documents&lt;&lt; </property>
           </property>
           <property name="request" class="kapow.robot.plugin.common.stateprocessor.rest.PostRestRequest">
             <property name="body" class="kapow.robot.plugin.common.stateprocessor.rest.RawBodyContent">
@@ -708,7 +708,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           </property>
           <property name="output" class="kapow.robot.plugin.common.stateprocessor.rest.ToVariableOutputSpecification" serializationversion="1">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
-              <property name="name" class="String">GlobalConfig.DocumentRepository</property>
+              <property name="name" class="String">Global.CurrentDocument</property>
             </property>
           </property>
           <property name="browserConfigurationSpecification" class="BrowserConfigurationSpecificationWebKit" serializationversion="23">
@@ -734,6 +734,130 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
         </property>
       </object>
       <object class="Transition" serializationversion="3" id="34">
+        <property name="name" class="String">Wait</property>
+        <property name="stepAction" class="Wait2">
+          <property name="seconds" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
+            <property name="value" class="String">8</property>
+          </property>
+        </property>
+        <property name="elementFinders" class="ElementFinders"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="4"/>
+        <property name="changedProperties" class="java.util.HashSet">
+          <element class="String">name</element>
+        </property>
+      </object>
+      <object class="Transition" serializationversion="3" id="35">
+        <property name="name" class="String">Open Variable</property>
+        <property name="stepAction" class="OpenVariable">
+          <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+            <property name="name" class="String">Global.CurrentDocument</property>
+          </property>
+        </property>
+        <property name="elementFinders" class="ElementFinders"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="4"/>
+        <property name="changedProperties" class="java.util.HashSet">
+          <element class="String">name</element>
+        </property>
+      </object>
+      <object class="Transition" serializationversion="3" id="36">
+        <property name="name" class="String">Extract Document ID</property>
+        <property name="stepAction" class="ExtractJSON2">
+          <property name="dataConverters" class="DataConverters">
+            <element class="UnquoteText"/>
+          </property>
+          <property name="attributeName" class="kapow.robot.plugin.common.support.AttributeName2">
+            <property name="name" class="String">DocumentID</property>
+          </property>
+        </property>
+        <property name="elementFinders" class="ElementFinders">
+          <object class="kapow.robot.robomaker.state.document.elementfinder.json.JSONElementFinder">
+            <property name="nodePath" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
+              <property name="value" class="String">@top:.Id</property>
+            </property>
+          </object>
+        </property>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="4"/>
+        <property name="changedProperties" class="java.util.HashSet">
+          <element class="String">name</element>
+        </property>
+      </object>
+      <object class="Transition" serializationversion="3" id="37">
+        <property name="name" class="String">Call REST Web Service</property>
+        <property name="stepAction" class="CallRESTWebService2" serializationversion="1">
+          <property name="urlProvider" class="Expression" serializationversion="1">
+            <property name="text" class="String">&gt;&gt;&lt;&lt;+GlobalConfig.DocumentRepository+&gt;&gt;documents/&lt;&lt; + DocumentID + &gt;&gt;/attachments&lt;&lt;</property>
+          </property>
+          <property name="request" class="kapow.robot.plugin.common.stateprocessor.rest.PostRestRequest">
+            <property name="body" class="kapow.robot.plugin.common.stateprocessor.rest.ParameterBodyContent">
+              <property name="parameters" class="BeanList">
+                <object class="kapow.robot.plugin.common.stateprocessor.rest.RestFileParameter">
+                  <property name="name" class="String">test</property>
+                  <property name="value" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
+                    <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+                      <property name="name" class="String">Attachment.Content</property>
+                    </property>
+                  </property>
+                  <property name="fileName" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
+                    <property name="value" class="String">screenshot.jpg</property>
+                  </property>
+                  <property name="contentType" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
+                    <property name="value" class="String">image/jpeg</property>
+                  </property>
+                  <property name="contentTransferEncoding" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
+                    <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+                      <property name="name" class="String">ContentText</property>
+                    </property>
+                  </property>
+                </object>
+              </property>
+              <property name="parameterEncoding" class="kapow.robot.plugin.common.stateprocessor.rest.ParameterBodyContent$ParameterEncoding">
+                <property name="enum-name" class="String">MULTIPART</property>
+              </property>
+            </property>
+          </property>
+          <property name="output" class="kapow.robot.plugin.common.stateprocessor.rest.ToVariableOutputSpecification" serializationversion="1">
+            <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+              <property name="name" class="String">Global.CurrentDocument</property>
+            </property>
+          </property>
+          <property name="browserConfigurationSpecification" class="BrowserConfigurationSpecificationWebKit" serializationversion="23">
+            <property name="SSLUsage" idref="8"/>
+            <property name="outputPageIfTimeoutEnabled" class="Boolean">false</property>
+            <property name="migrationNotes" class="kapow.robot.plugin.common.support.Text">
+              <property name="text" class="String">Default value changed: screenSize 800 x 600 -&gt; 1280 x 1024
+Default value changed: userAgentProvider Internet Explorer 8.0 on Windows 7 -&gt; Chrome 27.0 on Windows 7
+Default value changed: maxWaitForTimeout 30000 -&gt; 10000
+Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.support.expression.stringexpr.PresetUserAgentStringExpression(userAgent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.110 Safari/537.36")</property>
+            </property>
+            <property name="ancestorProvider" class="BrowserConfigurationSpecificationAncestorProviderForStep"/>
+            <property name="changedProperties" class="java.util.HashSet">
+              <element class="String">headerProvider</element>
+            </property>
+          </property>
+        </property>
+        <property name="elementFinders" class="ElementFinders"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="4"/>
+        <property name="changedProperties" class="java.util.HashSet">
+          <element class="String">name</element>
+        </property>
+      </object>
+      <object class="Transition" serializationversion="3" id="38">
         <property name="name" class="String">Return Value</property>
         <property name="stepAction" class="ReturnVariable" serializationversion="1">
           <property name="variableName" class="kapow.robot.plugin.common.support.VariableName">
@@ -750,8 +874,8 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
           <element idref="12"/>
         </property>
       </object>
-      <object class="End" id="35"/>
-      <object class="Transition" serializationversion="3" id="36">
+      <object class="End" id="39"/>
+      <object class="Transition" serializationversion="3" id="40">
         <property name="name" class="String">Assign Variable</property>
         <property name="stepAction" class="AssignVariable" serializationversion="4">
           <property name="stringExpr" class="Expression" serializationversion="1">
@@ -808,7 +932,7 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
       </object>
       <object class="TransitionEdge">
         <from idref="17"/>
-        <to idref="36"/>
+        <to idref="40"/>
       </object>
       <object class="TransitionEdge">
         <from idref="18"/>
@@ -871,7 +995,23 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
         <to idref="35"/>
       </object>
       <object class="TransitionEdge">
+        <from idref="35"/>
+        <to idref="36"/>
+      </object>
+      <object class="TransitionEdge">
         <from idref="36"/>
+        <to idref="37"/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="37"/>
+        <to idref="38"/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="38"/>
+        <to idref="39"/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="40"/>
         <to idref="19"/>
       </object>
     </edges>
