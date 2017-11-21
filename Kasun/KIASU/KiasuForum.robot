@@ -1162,8 +1162,44 @@
         <property name="enabled" idref="15"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="End" id="78"/>
+      <object class="Transition" serializationversion="3" id="78">
+        <property name="name" class="String">Open JSON</property>
+        <property name="stepAction" class="OpenVariable">
+          <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+            <property name="name" class="String">JSON</property>
+          </property>
+        </property>
+        <property name="elementFinders" class="ElementFinders"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="15"/>
+        <property name="changedProperties" class="java.util.HashSet"/>
+      </object>
       <object class="Transition" serializationversion="3" id="79">
+        <property name="name" class="String">Set JSON</property>
+        <property name="stepAction" class="SetJSONStepAction">
+          <property name="newContent" class="kapow.robot.plugin.common.support.expression.stringexpr.MultilineValueStringExpression">
+            <property name="value" class="String">[]</property>
+          </property>
+        </property>
+        <property name="elementFinders" class="ElementFinders">
+          <object class="kapow.robot.robomaker.state.document.elementfinder.json.JSONElementFinder">
+            <property name="nodePath" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
+              <property name="value" class="String">@top:.comments.data</property>
+            </property>
+          </object>
+        </property>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="15"/>
+        <property name="changedProperties" class="java.util.HashSet"/>
+      </object>
+      <object class="End" id="80"/>
+      <object class="Transition" serializationversion="3" id="81">
         <property name="name" class="String">Click Next</property>
         <property name="stepAction" class="Click" serializationversion="0">
           <property name="browserConfigurationSpecification" class="BrowserConfigurationSpecificationWebKit" serializationversion="23">
@@ -1194,7 +1230,7 @@
           <element idref="40"/>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="80">
+      <object class="Transition" serializationversion="3" id="82">
         <property name="name" class="String">Next</property>
         <property name="stepAction" class="Next"/>
         <property name="elementFinders" class="ElementFinders"/>
@@ -1205,7 +1241,7 @@
         <property name="enabled" idref="15"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="End" id="81"/>
+      <object class="End" id="83"/>
     </steps>
     <blockEndStep class="BlockEndStep"/>
     <edges class="ArrayList">
@@ -1251,7 +1287,7 @@
       </object>
       <object class="TransitionEdge">
         <from idref="33"/>
-        <to idref="79"/>
+        <to idref="81"/>
       </object>
       <object class="TransitionEdge">
         <from idref="34"/>
@@ -1410,12 +1446,20 @@
         <to idref="78"/>
       </object>
       <object class="TransitionEdge">
+        <from idref="78"/>
+        <to idref="79"/>
+      </object>
+      <object class="TransitionEdge">
         <from idref="79"/>
         <to idref="80"/>
       </object>
       <object class="TransitionEdge">
-        <from idref="80"/>
-        <to idref="81"/>
+        <from idref="81"/>
+        <to idref="82"/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="82"/>
+        <to idref="83"/>
       </object>
     </edges>
   </property>
