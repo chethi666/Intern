@@ -5,11 +5,11 @@
       <version>9.7.6</version>
     </saved-by-versions>
     <referenced-types>
-      <type name="Commemnts"/>
+      <type name="Comments"/>
     </referenced-types>
     <referenced-snippets/>
     <typed-variables>
-      <typed-variable name="Comments" type-name="Commemnts"/>
+      <typed-variable name="Comments" type-name="Comments"/>
     </typed-variables>
     <global-variables/>
     <parameters/>
@@ -30,7 +30,7 @@
       <property name="name" class="String">Comments</property>
       <property name="initialAssignment" class="InitialVariableAssignment">
         <property name="type" class="TypeReference" serializationversion="0">
-          <property name="typeName" class="String">Commemnts</property>
+          <property name="typeName" class="String">Comments</property>
         </property>
       </property>
     </object>
