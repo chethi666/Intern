@@ -38,7 +38,7 @@
           <property name="value" class="AttributeAssignment">
             <property name="attributeValue" class="String">{
   "Schema" : "SOCIAL_MEDIA",
-  "Source" : "nasionalKompas",
+  "Source" : "nasional_Kompas",
   "SourceUrl" : "http://nasional.kompas.com/",
   "ContentUrl" : "",
   "Author" : "",

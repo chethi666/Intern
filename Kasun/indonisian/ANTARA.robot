@@ -860,14 +860,18 @@
         <property name="name" class="String">Assign Content</property>
         <property name="stepAction" class="AssignVariable" serializationversion="4">
           <property name="stringExpr" class="Expression" serializationversion="1">
-            <property name="text" class="String">substring(newsArticle.Content,indexOf(newsArticle.Content,"(ANTARA News) -") ,indexOf(newsArticle.Content,"COPYRIGHT") )</property>
+            <property name="text" class="String">replaceText(substring(newsArticle.Content,indexOf(newsArticle.Content,"(ANTARA News) -") ,indexOf(newsArticle.Content,"COPYRIGHT") ),"(ANTARA News) -"," ")</property>
           </property>
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
             <property name="name" class="String">newsArticle.Content</property>
           </property>
         </property>
         <property name="elementFinders" class="ElementFinders" id="52"/>
-        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0">
+          <property name="reportingViaAPI" class="Boolean">false</property>
+          <property name="reportingViaLog" class="Boolean">false</property>
+          <property name="controlFlow" class="kapow.robot.robomaker.robot.ControlFlow$IgnoreAndContinue"/>
+        </property>
         <property name="comment">
           <null/>
         </property>

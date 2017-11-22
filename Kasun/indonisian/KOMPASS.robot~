@@ -395,7 +395,7 @@
         <property name="name" class="String">Assign Content</property>
         <property name="stepAction" class="AssignVariable" serializationversion="4">
           <property name="stringExpr" class="Expression" serializationversion="1">
-            <property name="text" class="String">substring(newsArticle.Content,indexOf(newsArticle.Content,".com ") ,indexOf(newsArticle.Content,"Advertisment") )</property>
+            <property name="text" class="String">substring(newsArticle.Content,indexOf(newsArticle.Content,"KOMPAS.com") ,indexOf(newsArticle.Content,"Advertisment") )</property>
           </property>
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
             <property name="name" class="String">newsArticle.Content</property>
