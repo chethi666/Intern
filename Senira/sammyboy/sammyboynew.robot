@@ -89,7 +89,7 @@
   "PublishDate" : "",
   "ContentUrl" : "",
   "TotalComments" : "",
-  "Comments" : {
+  "comments" : {
                  "data" : []
                },
   "Schema" : "SOCIAL_MEDIA",
@@ -792,6 +792,9 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
       <object class="Transition" serializationversion="3" id="50">
         <property name="name" class="String">Extract Content Text</property>
         <property name="stepAction" class="Extract" serializationversion="1">
+          <property name="dataConverters" class="DataConverters">
+            <element class="RemoveSpaces"/>
+          </property>
           <property name="attributeName" class="kapow.robot.plugin.common.support.AttributeName2">
             <property name="name" idref="14"/>
           </property>
@@ -958,10 +961,17 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           <property name="insertJSONMode" class="kapow.robot.plugin.common.stepaction.json.InsertItemMode">
             <property name="value" class="Expression" serializationversion="1">
               <property name="text" class="String">&gt;&gt;{ 
-"Comment":  "&lt;&lt; + CommentText + &gt;&gt;",
-"Author":  "&lt;&lt; + CommentAuthor + &gt;&gt;",
-"PublishDate":  "&lt;&lt; + CommentDate_String + &gt;&gt;"
-} "&lt;&lt;</property>
+"like_count": 0,
+"message": "&lt;&lt; + CommentText + &gt;&gt;",
+"id": "",
+"created_time": "&lt;&lt; + CommentDate_String + &gt;&gt;",
+"from": {
+	"name": "&lt;&lt; + CommentAuthor + &gt;&gt;",
+	"id": ""
+	},
+"user_likes": false,
+"message_tags": null
+} &lt;&lt;</property>
             </property>
           </property>
           <property name="insertWhereMode" class="InsertJSON$InsertWhere">
@@ -975,11 +985,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
             </property>
           </object>
         </property>
-        <property name="errorHandler" class="ErrorHandler" serializationversion="0">
-          <property name="reportingViaAPI" class="Boolean">false</property>
-          <property name="reportingViaLog" class="Boolean">false</property>
-          <property name="controlFlow" class="kapow.robot.robomaker.robot.ControlFlow$IgnoreAndContinue"/>
-        </property>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
         <property name="comment">
           <null/>
         </property>
@@ -1320,46 +1326,6 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
         </property>
       </object>
       <object class="Transition" serializationversion="3" id="73">
-        <property name="name" class="String">Open Variable</property>
-        <property name="stepAction" class="OpenVariable">
-          <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
-            <property name="name" class="String">JSON</property>
-          </property>
-        </property>
-        <property name="elementFinders" class="ElementFinders"/>
-        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
-        <property name="comment">
-          <null/>
-        </property>
-        <property name="enabled" idref="20"/>
-        <property name="changedProperties" class="java.util.HashSet">
-          <element idref="29"/>
-        </property>
-      </object>
-      <object class="Transition" serializationversion="3" id="74">
-        <property name="name" class="String">Set JSON</property>
-        <property name="stepAction" class="SetJSONStepAction">
-          <property name="newContent" class="kapow.robot.plugin.common.support.expression.stringexpr.MultilineValueStringExpression">
-            <property name="value" class="String">[]</property>
-          </property>
-        </property>
-        <property name="elementFinders" class="ElementFinders">
-          <object class="kapow.robot.robomaker.state.document.elementfinder.json.JSONElementFinder">
-            <property name="nodePath" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
-              <property name="value" class="String">@top:.Comments.data</property>
-            </property>
-          </object>
-        </property>
-        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
-        <property name="comment">
-          <null/>
-        </property>
-        <property name="enabled" idref="20"/>
-        <property name="changedProperties" class="java.util.HashSet">
-          <element idref="29"/>
-        </property>
-      </object>
-      <object class="Transition" serializationversion="3" id="75">
         <property name="name" class="String">Wait</property>
         <property name="stepAction" class="Wait2">
           <property name="seconds" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
@@ -1376,7 +1342,7 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="76">
+      <object class="Transition" serializationversion="3" id="74">
         <property name="name" class="String">Open Variable</property>
         <property name="stepAction" class="OpenVariable">
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1393,7 +1359,7 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="77">
+      <object class="Transition" serializationversion="3" id="75">
         <property name="name" class="String">Extract Document ID</property>
         <property name="stepAction" class="ExtractJSON2">
           <property name="dataConverters" class="DataConverters">
@@ -1419,7 +1385,7 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="78">
+      <object class="Transition" serializationversion="3" id="76">
         <property name="name" class="String">Call REST Web Service</property>
         <property name="stepAction" class="CallRESTWebService2" serializationversion="1">
           <property name="urlProvider" class="Expression" serializationversion="1">
@@ -1474,6 +1440,46 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
           </property>
         </property>
         <property name="elementFinders" class="ElementFinders"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="20"/>
+        <property name="changedProperties" class="java.util.HashSet">
+          <element class="String">name</element>
+        </property>
+      </object>
+      <object class="Transition" serializationversion="3" id="77">
+        <property name="name" class="String">Open Variable</property>
+        <property name="stepAction" class="OpenVariable">
+          <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+            <property name="name" class="String">JSON</property>
+          </property>
+        </property>
+        <property name="elementFinders" class="ElementFinders"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="20"/>
+        <property name="changedProperties" class="java.util.HashSet">
+          <element class="String">name</element>
+        </property>
+      </object>
+      <object class="Transition" serializationversion="3" id="78">
+        <property name="name" class="String">Set JSON</property>
+        <property name="stepAction" class="SetJSONStepAction">
+          <property name="newContent" class="kapow.robot.plugin.common.support.expression.stringexpr.MultilineValueStringExpression">
+            <property name="value" class="String">[]</property>
+          </property>
+        </property>
+        <property name="elementFinders" class="ElementFinders">
+          <object class="kapow.robot.robomaker.state.document.elementfinder.json.JSONElementFinder">
+            <property name="nodePath" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
+              <property name="value" class="String">@top:.comments.data</property>
+            </property>
+          </object>
+        </property>
         <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
         <property name="comment">
           <null/>
