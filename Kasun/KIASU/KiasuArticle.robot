@@ -131,7 +131,7 @@
   "Author" : "",
   "Source" : "KiasuParents",
   "Schema" : "SOCIAL_MEDIA",
-  "SocialNetwork" : "Articles",
+  "SocialNetwork" : "news",
   "Country" : "SG",
   "_webSourceId" : "2553194",
   "comments" : {
