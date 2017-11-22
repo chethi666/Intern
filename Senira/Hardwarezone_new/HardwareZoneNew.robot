@@ -1159,15 +1159,11 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="elementFinders" class="ElementFinders">
           <object class="kapow.robot.robomaker.state.document.elementfinder.json.JSONElementFinder">
             <property name="nodePath" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
-              <property name="value" class="String">@top:.Comments.data</property>
+              <property name="value" class="String">@top:.comments.data</property>
             </property>
           </object>
         </property>
-        <property name="errorHandler" class="ErrorHandler" serializationversion="0">
-          <property name="reportingViaAPI" class="Boolean">false</property>
-          <property name="reportingViaLog" class="Boolean">false</property>
-          <property name="controlFlow" class="kapow.robot.robomaker.robot.ControlFlow$IgnoreAndContinue"/>
-        </property>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
         <property name="comment">
           <null/>
         </property>
