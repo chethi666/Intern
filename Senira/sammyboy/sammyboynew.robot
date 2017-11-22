@@ -793,7 +793,17 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="name" class="String">Extract Content Text</property>
         <property name="stepAction" class="Extract" serializationversion="1">
           <property name="dataConverters" class="DataConverters">
+            <element class="ReplacePattern">
+              <property name="pattern" class="kapow.robot.plugin.common.support.expression.stringexpr.PartialInputMatchingPatternValueStringExpression">
+                <property name="value" class="String">[,]</property>
+              </property>
+            </element>
             <element class="RemoveSpaces"/>
+            <element class="ReplacePattern">
+              <property name="pattern" class="kapow.robot.plugin.common.support.expression.stringexpr.PartialInputMatchingPatternValueStringExpression">
+                <property name="value" class="String">["]</property>
+              </property>
+            </element>
           </property>
           <property name="attributeName" class="kapow.robot.plugin.common.support.AttributeName2">
             <property name="name" idref="14"/>
