@@ -4,6 +4,7 @@ using System.ServiceProcess;
 using System.Text;
 using System.IO;
 using System.Net;
+using Newtonsoft.Json;
 
 namespace Gold_without_log_
 {
@@ -18,8 +19,9 @@ namespace Gold_without_log_
 
             JObject jObj = JObject.Parse(response);
 
+            int length = (int)jObj["DocumentCount"];
 
-            int length = jObj.Count;
+            // int length = jObj.;
             string[] Robo;
             Robo= new String[length];
 
