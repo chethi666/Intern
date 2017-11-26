@@ -1,0 +1,10 @@
+c:\users\mpoc0125\documents\visual studio 2015\Projects\Gold(without log)\Gold(without log)\bin\Debug\Gold(without log).exe.config
+c:\users\mpoc0125\documents\visual studio 2015\Projects\Gold(without log)\Gold(without log)\bin\Debug\Gold(without log).exe
+c:\users\mpoc0125\documents\visual studio 2015\Projects\Gold(without log)\Gold(without log)\bin\Debug\Gold(without log).pdb
+c:\users\mpoc0125\documents\visual studio 2015\Projects\Gold(without log)\Gold(without log)\bin\Debug\Newtonsoft.Json.dll
+c:\users\mpoc0125\documents\visual studio 2015\Projects\Gold(without log)\Gold(without log)\bin\Debug\Newtonsoft.Json.xml
+c:\users\mpoc0125\documents\visual studio 2015\Projects\Gold(without log)\Gold(without log)\obj\Debug\Gold(without log).exe
+c:\users\mpoc0125\documents\visual studio 2015\Projects\Gold(without log)\Gold(without log)\obj\Debug\Gold(without log).pdb
+c:\users\mpoc0125\documents\visual studio 2015\Projects\Gold(without log)\Gold(without log)\obj\Debug\Gold_without_log_.ProjectInstaller.resources
+c:\users\mpoc0125\documents\visual studio 2015\Projects\Gold(without log)\Gold(without log)\obj\Debug\Gold(without log).csproj.GenerateResource.Cache
+C:\Users\MPOC0125\documents\visual studio 2015\Projects\Gold(without log)\Gold(without log)\obj\Debug\Gold(without log).csprojResolveAssemblyReference.cache
