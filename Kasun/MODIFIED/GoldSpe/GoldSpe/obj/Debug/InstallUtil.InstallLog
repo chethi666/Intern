@@ -1,0 +1,14 @@
+﻿
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the C:\Users\MPOC0125\Documents\Visual Studio 2015\Projects\GoldSpe\GoldSpe\obj\Debug\GoldSpe.exe assembly's progress.
+The file is located at C:\Users\MPOC0125\Documents\Visual Studio 2015\Projects\GoldSpe\GoldSpe\obj\Debug\GoldSpe.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the C:\Users\MPOC0125\Documents\Visual Studio 2015\Projects\GoldSpe\GoldSpe\obj\Debug\GoldSpe.exe assembly's progress.
+The file is located at C:\Users\MPOC0125\Documents\Visual Studio 2015\Projects\GoldSpe\GoldSpe\obj\Debug\GoldSpe.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.

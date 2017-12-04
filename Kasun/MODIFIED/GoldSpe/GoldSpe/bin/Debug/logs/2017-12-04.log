@@ -1,0 +1,121 @@
+2017-12-04 14:56:59.1275|ERROR|GoldSpe.RetrieveRobots|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at GoldSpe.RetrieveRobots.GetRobots() in c:\Users\MPOC0125\Documents\Visual Studio 2015\Projects\GoldSpe\GoldSpe\RetrieveRobots.cs:line 47
+2017-12-04 15:01:03.3272|ERROR|GoldSpe.RetrieveRobots|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at GoldSpe.RetrieveRobots.GetRobots() in c:\Users\MPOC0125\Documents\Visual Studio 2015\Projects\GoldSpe\GoldSpe\RetrieveRobots.cs:line 48
+2017-12-04 16:38:17.9742|INFO|GoldSpe.CheckStatus|The url of Robot= http://edition.cnn.com/=====is  working
+
+2017-12-04 16:38:18.2794|ERROR|GoldSpe.CheckStatus|The url of Robot= https://vickychong.wordpress.com/=====is not working due to no Document values 
+
+2017-12-04 16:38:18.5509|INFO|GoldSpe.CheckStatus|The url of Robot= http://www.bbc.com/=====is  working
+
+2017-12-04 16:38:18.7910|ERROR|GoldSpe.CheckStatus|The url of Robot= http://www.channelnewsasia.com/news/international=====is not working due to no Document values 
+
+2017-12-04 16:38:19.0323|INFO|GoldSpe.CheckStatus|The url of Robot= https://www.reuters.com/=====is  working
+
+2017-12-04 16:38:19.2905|INFO|GoldSpe.CheckStatus|The url of Robot= http://www.todayonline.com=====is  working
+
+2017-12-04 16:38:19.5140|ERROR|GoldSpe.CheckStatus|The url of Robot= https://www.kiasuparents.com/kiasu/article/=====is not working due to no Document values 
+
+2017-12-04 16:38:19.7548|INFO|GoldSpe.CheckStatus|The url of Robot= https://www.antaranews.com/=====is  working
+
+2017-12-04 16:38:19.9935|INFO|GoldSpe.CheckStatus|The url of Robot= http://www.yenicaggazetesi.com.tr/siyaset-haberleri-41hk.htm=====is  working
+
+2017-12-04 16:38:20.2555|ERROR|GoldSpe.CheckStatus|The url of Robot= https://www.mhp.org.tr/mhp_dil.php?dil=en=====is not working due to no Document values 
+
+2017-12-04 16:38:20.5013|ERROR|GoldSpe.CheckStatus|The url of Robot= http://www.meralaksener.com.tr/=====is not working due to no Document values 
+
+2017-12-04 16:38:20.7480|INFO|GoldSpe.CheckStatus|The url of Robot= http://odatv.com/c.php?c=siyaset=====is  working
+
+2017-12-04 16:38:21.0283|INFO|GoldSpe.CheckStatus|The url of Robot= http://nasional.kompas.com/=====is  working
+
+2017-12-04 16:38:21.4861|INFO|GoldSpe.CheckStatus|The url of Robot= http://www.liputan6.com/=====is  working
+
+2017-12-04 16:38:22.2029|ERROR|GoldSpe.CheckStatus|The url of Robot= http://www.indonesiamedia.com/category/recent-articles/=====is not working due to no Document values 
+
+2017-12-04 16:38:22.4504|INFO|GoldSpe.CheckStatus|The url of Robot= http://stomp.straitstimes.com/=====is  working
+
+2017-12-04 16:38:22.7293|INFO|GoldSpe.CheckStatus|The url of Robot= http://www.mediaindonesia.com/=====is  working
+
+2017-12-04 16:38:22.9869|ERROR|GoldSpe.CheckStatus|The url of Robot= https://sg.news.yahoo.com/=====is not working due to no Document values 
+
+2017-12-04 16:38:23.2273|ERROR|GoldSpe.CheckStatus|The url of Robot= http://www.viva.co.id/indeks/berita/nasional=====is not working due to no Document values 
+
+2017-12-04 16:38:23.4774|ERROR|GoldSpe.CheckStatus|The url of Robot= https://www.kiasuparents.com/kiasu/forum/index.php=====is not working due to no Document values 
+
+2017-12-04 16:38:23.7203|INFO|GoldSpe.CheckStatus|The url of Robot= https://www.tccb.gov.tr/en/activities/=====is  working
+
+2017-12-04 16:38:24.0082|INFO|GoldSpe.CheckStatus|The url of Robot= http://www.hurriyetdailynews.com/=====is  working
+
+2017-12-04 16:38:24.2331|ERROR|GoldSpe.CheckStatus|The url of Robot= http://www.carigold.com/portal/forums/index.php=====is not working due to no Document values 
+
+2017-12-04 16:38:24.5148|INFO|GoldSpe.CheckStatus|The url of Robot= https://www.dailysabah.com/=====is  working
+
+2017-12-04 16:38:24.7957|INFO|GoldSpe.CheckStatus|The url of Robot= https://www.dailysabah.com/=====is  working
+
+2017-12-04 16:38:25.0768|ERROR|GoldSpe.CheckStatus|The url of Robot= http://www.turkishpress.com/national/=====is not working due to no Document values 
+
+2017-12-04 16:38:25.6304|INFO|GoldSpe.CheckStatus|The url of Robot= https://www.chp.org.tr/=====is  working
+
+2017-12-04 16:38:25.8549|ERROR|GoldSpe.CheckStatus|The url of Robot= http://www.gulenmovement.com/articles=====is not working due to no Document values 
+
+2017-12-04 16:38:26.0874|ERROR|GoldSpe.CheckStatus|The url of Robot= http://www.akparti.org.tr/english=====is not working due to no Document values 
+
+2017-12-04 16:43:31.0446|INFO|GoldSpe.CheckStatus|The url of Robot= http://edition.cnn.com/=====is  working
+
+2017-12-04 16:43:31.5048|ERROR|GoldSpe.CheckStatus|The url of Robot= https://vickychong.wordpress.com/=====is not working due to no Document values 
+
+2017-12-04 16:43:31.7947|INFO|GoldSpe.CheckStatus|The url of Robot= http://www.bbc.com/=====is  working
+
+2017-12-04 16:43:32.0574|ERROR|GoldSpe.CheckStatus|The url of Robot= http://www.channelnewsasia.com/news/international=====is not working due to no Document values 
+
+2017-12-04 16:43:32.3067|INFO|GoldSpe.CheckStatus|The url of Robot= https://www.reuters.com/=====is  working
+
+2017-12-04 16:43:32.6211|INFO|GoldSpe.CheckStatus|The url of Robot= http://www.todayonline.com=====is  working
+
+2017-12-04 16:43:32.8744|ERROR|GoldSpe.CheckStatus|The url of Robot= https://www.kiasuparents.com/kiasu/article/=====is not working due to no Document values 
+
+2017-12-04 16:43:33.1382|INFO|GoldSpe.CheckStatus|The url of Robot= https://www.antaranews.com/=====is  working
+
+2017-12-04 16:43:33.4137|INFO|GoldSpe.CheckStatus|The url of Robot= http://www.yenicaggazetesi.com.tr/siyaset-haberleri-41hk.htm=====is  working
+
+2017-12-04 16:43:33.6552|ERROR|GoldSpe.CheckStatus|The url of Robot= https://www.mhp.org.tr/mhp_dil.php?dil=en=====is not working due to no Document values 
+
+2017-12-04 16:43:33.9691|ERROR|GoldSpe.CheckStatus|The url of Robot= http://www.meralaksener.com.tr/=====is not working due to no Document values 
+
+2017-12-04 16:43:34.3029|INFO|GoldSpe.CheckStatus|The url of Robot= http://odatv.com/c.php?c=siyaset=====is  working
+
+2017-12-04 16:43:34.8367|INFO|GoldSpe.CheckStatus|The url of Robot= http://nasional.kompas.com/=====is  working
+
+2017-12-04 16:43:35.1980|INFO|GoldSpe.CheckStatus|The url of Robot= http://www.liputan6.com/=====is  working
+
+2017-12-04 16:43:35.4809|ERROR|GoldSpe.CheckStatus|The url of Robot= http://www.indonesiamedia.com/category/recent-articles/=====is not working due to no Document values 
+
+2017-12-04 16:43:35.7966|INFO|GoldSpe.CheckStatus|The url of Robot= http://stomp.straitstimes.com/=====is  working
+
+2017-12-04 16:43:36.1197|INFO|GoldSpe.CheckStatus|The url of Robot= http://www.mediaindonesia.com/=====is  working
+
+2017-12-04 16:43:36.3759|ERROR|GoldSpe.CheckStatus|The url of Robot= https://sg.news.yahoo.com/=====is not working due to no Document values 
+
+2017-12-04 16:43:36.6965|ERROR|GoldSpe.CheckStatus|The url of Robot= http://www.viva.co.id/indeks/berita/nasional=====is not working due to no Document values 
+
+2017-12-04 16:43:36.9967|ERROR|GoldSpe.CheckStatus|The url of Robot= https://www.kiasuparents.com/kiasu/forum/index.php=====is not working due to no Document values 
+
+2017-12-04 16:43:37.3166|INFO|GoldSpe.CheckStatus|The url of Robot= https://www.tccb.gov.tr/en/activities/=====is  working
+
+2017-12-04 16:43:37.6585|INFO|GoldSpe.CheckStatus|The url of Robot= http://www.hurriyetdailynews.com/=====is  working
+
+2017-12-04 16:43:38.3882|ERROR|GoldSpe.CheckStatus|The url of Robot= http://www.carigold.com/portal/forums/index.php=====is not working due to no Document values 
+
+2017-12-04 16:43:38.8778|INFO|GoldSpe.CheckStatus|The url of Robot= https://www.dailysabah.com/=====is  working
+
+2017-12-04 16:43:39.4399|INFO|GoldSpe.CheckStatus|The url of Robot= https://www.dailysabah.com/=====is  working
+
+2017-12-04 16:43:39.8624|ERROR|GoldSpe.CheckStatus|The url of Robot= http://www.turkishpress.com/national/=====is not working due to no Document values 
+
+2017-12-04 16:43:40.4184|INFO|GoldSpe.CheckStatus|The url of Robot= https://www.chp.org.tr/=====is  working
+
+2017-12-04 16:43:40.6544|ERROR|GoldSpe.CheckStatus|The url of Robot= http://www.gulenmovement.com/articles=====is not working due to no Document values 
+
+2017-12-04 16:43:40.9082|ERROR|GoldSpe.CheckStatus|The url of Robot= http://www.akparti.org.tr/english=====is not working due to no Document values 
+
+2017-12-04 16:44:30.5449|ERROR|GoldSpe.MyService|Service is Stopped
