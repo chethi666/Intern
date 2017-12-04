@@ -1,0 +1,1954 @@
+Info (2017-12-04 14:10:09.8598)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.antaranews.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 14:10:11.2546)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.carigold.com/portal/forums/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 14:10:12.1210)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 14:10:15.7058)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.liputan6.com/====== Robot is Working
+	
+
+Info (2017-12-04 14:10:16.7284)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 14:10:16.9667)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/article/ ====== Robot is Not Working
+	
+
+Info (2017-12-04 14:10:17.4654)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.chp.org.tr/====== Robot is Working
+	
+
+Info (2017-12-04 14:10:17.6920)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.meralaksener.com.tr/====== Robot is Not Working
+	
+
+Info (2017-12-04 14:10:17.9350)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.gulenmovement.com/articles====== Robot is Not Working
+	
+
+Error (2017-12-04 14:10:18.7951)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:System.ArgumentOutOfRangeException
+             Exception Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+             Stack Trace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Object key)
+   at WindowsServiceRobot.Program.Service1.OnStart(String[] args) in C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\Program.cs:line 137
+             Additional Info: 
+Cant access tohttps://www.tccb.gov.tr/en/activities/
+
+
+Info (2017-12-04 14:10:19.0340)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.mhp.org.tr/mhp_dil.php?dil=en====== Robot is Not Working
+	
+
+Info (2017-12-04 14:10:23.4948)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://stomp.straitstimes.com/====== Robot is Working
+	
+
+Info (2017-12-04 14:10:24.0053)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://odatv.com/c.php?c=siyaset====== Robot is Working
+	
+
+Info (2017-12-04 14:10:24.2826)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.bbc.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 14:13:46.7658)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.antaranews.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 14:13:47.0370)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.carigold.com/portal/forums/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 14:13:47.2782)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 14:13:47.5274)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.liputan6.com/====== Robot is Working
+	
+
+Info (2017-12-04 14:13:47.7535)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 14:13:47.9837)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/article/ ====== Robot is Not Working
+	
+
+Info (2017-12-04 14:13:48.2329)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.chp.org.tr/====== Robot is Working
+	
+
+Info (2017-12-04 14:13:48.4630)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.meralaksener.com.tr/====== Robot is Not Working
+	
+
+Info (2017-12-04 14:13:48.6972)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.gulenmovement.com/articles====== Robot is Not Working
+	
+
+Error (2017-12-04 14:13:48.9344)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:System.ArgumentOutOfRangeException
+             Exception Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+             Stack Trace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Object key)
+   at WindowsServiceRobot.Program.Service1.OnStart(String[] args) in C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\Program.cs:line 137
+             Additional Info: 
+Cant access tohttps://www.tccb.gov.tr/en/activities/
+
+
+Info (2017-12-04 14:13:49.1786)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.mhp.org.tr/mhp_dil.php?dil=en====== Robot is Not Working
+	
+
+Info (2017-12-04 14:13:49.4337)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://stomp.straitstimes.com/====== Robot is Working
+	
+
+Info (2017-12-04 14:13:50.5265)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://odatv.com/c.php?c=siyaset====== Robot is Working
+	
+
+Info (2017-12-04 14:13:50.7717)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.bbc.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 14:45:01.8009)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.antaranews.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 14:45:02.1336)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.carigold.com/portal/forums/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 14:45:02.3705)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 14:45:03.3852)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.liputan6.com/====== Robot is Working
+	
+
+Info (2017-12-04 14:45:03.7047)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 14:45:03.9478)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/article/ ====== Robot is Not Working
+	
+
+Info (2017-12-04 14:45:04.5247)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.chp.org.tr/====== Robot is Working
+	
+
+Info (2017-12-04 14:45:05.0650)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.meralaksener.com.tr/====== Robot is Not Working
+	
+
+Info (2017-12-04 14:45:05.4131)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.gulenmovement.com/articles====== Robot is Not Working
+	
+
+Error (2017-12-04 14:45:07.1840)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:System.ArgumentOutOfRangeException
+             Exception Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+             Stack Trace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Object key)
+   at WindowsServiceRobot.Program.Service1.OnStart(String[] args) in C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\Program.cs:line 137
+             Additional Info: 
+Cant access tohttps://www.tccb.gov.tr/en/activities/
+
+
+Info (2017-12-04 14:45:08.1775)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.mhp.org.tr/mhp_dil.php?dil=en====== Robot is Not Working
+	
+
+Info (2017-12-04 14:45:10.9563)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://stomp.straitstimes.com/====== Robot is Working
+	
+
+Info (2017-12-04 14:45:12.2688)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://odatv.com/c.php?c=siyaset====== Robot is Working
+	
+
+Info (2017-12-04 14:45:12.6498)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.bbc.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 14:55:56.5082)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.antaranews.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 14:55:56.9718)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.carigold.com/portal/forums/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 14:55:57.2043)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 14:55:57.7077)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.liputan6.com/====== Robot is Working
+	
+
+Info (2017-12-04 14:55:57.9576)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 14:55:58.2778)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/article/ ====== Robot is Not Working
+	
+
+Info (2017-12-04 14:55:58.8629)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.chp.org.tr/====== Robot is Working
+	
+
+Info (2017-12-04 14:55:59.1859)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.meralaksener.com.tr/====== Robot is Not Working
+	
+
+Info (2017-12-04 14:55:59.5979)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.gulenmovement.com/articles====== Robot is Not Working
+	
+
+Error (2017-12-04 14:55:59.9213)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:System.ArgumentOutOfRangeException
+             Exception Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+             Stack Trace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Object key)
+   at WindowsServiceRobot.Program.Service1.OnStart(String[] args) in C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\Program.cs:line 137
+             Additional Info: 
+Cant access tohttps://www.tccb.gov.tr/en/activities/
+
+
+Info (2017-12-04 14:56:00.4325)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.mhp.org.tr/mhp_dil.php?dil=en====== Robot is Not Working
+	
+
+Info (2017-12-04 14:56:00.7619)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://stomp.straitstimes.com/====== Robot is Working
+	
+
+Info (2017-12-04 14:56:01.2394)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://odatv.com/c.php?c=siyaset====== Robot is Working
+	
+
+Info (2017-12-04 14:56:04.4288)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.bbc.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 14:57:21.5878)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.antaranews.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 14:57:22.0124)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.carigold.com/portal/forums/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 14:57:22.2435)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 14:57:22.7636)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.liputan6.com/====== Robot is Working
+	
+
+Info (2017-12-04 14:57:23.0004)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 14:57:23.2610)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/article/ ====== Robot is Not Working
+	
+
+Info (2017-12-04 14:57:23.8209)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.chp.org.tr/====== Robot is Working
+	
+
+Info (2017-12-04 14:57:24.0601)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.meralaksener.com.tr/====== Robot is Not Working
+	
+
+Info (2017-12-04 14:57:24.3200)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.gulenmovement.com/articles====== Robot is Not Working
+	
+
+Error (2017-12-04 14:57:25.3672)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:System.ArgumentOutOfRangeException
+             Exception Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+             Stack Trace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Object key)
+   at WindowsServiceRobot.Program.Service1.OnStart(String[] args) in C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\Program.cs:line 137
+             Additional Info: 
+Cant access tohttps://www.tccb.gov.tr/en/activities/
+
+
+Info (2017-12-04 14:57:25.6078)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.mhp.org.tr/mhp_dil.php?dil=en====== Robot is Not Working
+	
+
+Info (2017-12-04 14:57:26.1059)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://stomp.straitstimes.com/====== Robot is Working
+	
+
+Info (2017-12-04 14:57:26.7861)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://odatv.com/c.php?c=siyaset====== Robot is Working
+	
+
+Info (2017-12-04 14:57:27.0454)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.bbc.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:01:23.3903)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.antaranews.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:01:23.7124)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/article/ ====== Robot is Not Working
+	
+
+Info (2017-12-04 15:01:23.9815)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.bbc.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:02:06.7048)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.antaranews.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:02:06.9673)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/article/ ====== Robot is Not Working
+	
+
+Info (2017-12-04 15:02:07.2440)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.bbc.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:02:32.1854)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.antaranews.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:02:32.5751)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.carigold.com/portal/forums/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:02:33.7929)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:02:36.7377)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.liputan6.com/====== Robot is Working
+	
+
+Info (2017-12-04 15:02:36.9744)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:02:37.4380)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/article/ ====== Robot is Not Working
+	
+
+Info (2017-12-04 15:02:38.6763)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.chp.org.tr/====== Robot is Working
+	
+
+Info (2017-12-04 15:02:38.9331)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.meralaksener.com.tr/====== Robot is Not Working
+	
+
+Info (2017-12-04 15:03:15.6540)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.gulenmovement.com/articles====== Robot is Not Working
+	
+
+Error (2017-12-04 15:03:15.9062)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:System.ArgumentOutOfRangeException
+             Exception Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+             Stack Trace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Object key)
+   at WindowsServiceRobot.Program.Service1.OnStart(String[] args) in C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\Program.cs:line 137
+             Additional Info: 
+Cant access tohttps://www.tccb.gov.tr/en/activities/
+
+
+Info (2017-12-04 15:03:16.2175)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.mhp.org.tr/mhp_dil.php?dil=en====== Robot is Not Working
+	
+
+Info (2017-12-04 15:03:16.8586)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://stomp.straitstimes.com/====== Robot is Working
+	
+
+Info (2017-12-04 15:03:17.4584)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://odatv.com/c.php?c=siyaset====== Robot is Working
+	
+
+Info (2017-12-04 15:03:17.7839)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.bbc.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:07:29.9791)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.antaranews.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:07:30.2753)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.carigold.com/portal/forums/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:07:30.6143)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:07:30.9551)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.liputan6.com/====== Robot is Working
+	
+
+Info (2017-12-04 15:07:31.1913)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:07:31.4319)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/article/ ====== Robot is Not Working
+	
+
+Info (2017-12-04 15:07:32.1148)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.chp.org.tr/====== Robot is Working
+	
+
+Info (2017-12-04 15:07:32.3720)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.meralaksener.com.tr/====== Robot is Not Working
+	
+
+Info (2017-12-04 15:07:32.6061)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.gulenmovement.com/articles====== Robot is Not Working
+	
+
+Error (2017-12-04 15:07:32.9429)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:System.ArgumentOutOfRangeException
+             Exception Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+             Stack Trace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Object key)
+   at WindowsServiceRobot.Program.Service1.OnStart(String[] args) in C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\Program.cs:line 141
+             Additional Info: 
+Cant access tohttps://www.tccb.gov.tr/en/activities/
+
+
+Info (2017-12-04 15:07:33.1963)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.mhp.org.tr/mhp_dil.php?dil=en====== Robot is Not Working
+	
+
+Info (2017-12-04 15:07:33.7131)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://stomp.straitstimes.com/====== Robot is Working
+	
+
+Info (2017-12-04 15:07:34.2822)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://odatv.com/c.php?c=siyaset====== Robot is Working
+	
+
+Info (2017-12-04 15:07:34.7112)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.bbc.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:17:06.5952)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.antaranews.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:17:06.9238)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.carigold.com/portal/forums/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:17:07.1641)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:17:07.6289)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.liputan6.com/====== Robot is Working
+	
+
+Info (2017-12-04 15:17:07.8811)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:17:08.1413)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/article/ ====== Robot is Not Working
+	
+
+Info (2017-12-04 15:17:08.5630)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.chp.org.tr/====== Robot is Working
+	
+
+Info (2017-12-04 15:17:08.8388)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.meralaksener.com.tr/====== Robot is Not Working
+	
+
+Info (2017-12-04 15:17:09.2182)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.gulenmovement.com/articles====== Robot is Not Working
+	
+
+Error (2017-12-04 15:17:09.6483)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:System.ArgumentOutOfRangeException
+             Exception Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+             Stack Trace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Object key)
+   at WindowsServiceRobot.Program.Service1.OnStart(String[] args) in C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\Program.cs:line 141
+             Additional Info: 
+Cant access tohttps://www.tccb.gov.tr/en/activities/
+
+
+Info (2017-12-04 15:17:09.9007)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.mhp.org.tr/mhp_dil.php?dil=en====== Robot is Not Working
+	
+
+Info (2017-12-04 15:17:10.2417)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://stomp.straitstimes.com/====== Robot is Working
+	
+
+Info (2017-12-04 15:17:10.6453)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://odatv.com/c.php?c=siyaset====== Robot is Working
+	
+
+Info (2017-12-04 15:17:11.0199)--------- 
+             
+             Call Site:WindowsServiceRobot.Program+Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.bbc.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:33:55.0166)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.antaranews.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:33:55.3612)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.carigold.com/portal/forums/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:33:56.5485)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:34:00.1354)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.liputan6.com/====== Robot is Working
+	
+
+Info (2017-12-04 15:34:01.1566)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:34:02.1815)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/article/ ====== Robot is Not Working
+	
+
+Info (2017-12-04 15:34:03.3994)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.chp.org.tr/====== Robot is Working
+	
+
+Info (2017-12-04 15:34:04.2343)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.meralaksener.com.tr/====== Robot is Not Working
+	
+
+Info (2017-12-04 15:34:03.8150)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.gulenmovement.com/articles====== Robot is Not Working
+	
+
+Error (2017-12-04 15:34:04.2211)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:System.ArgumentOutOfRangeException
+             Exception Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+             Stack Trace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Object key)
+   at WindowsServiceRobot.Service1.OnStart(String[] args) in C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\Service1.cs:line 88
+             Additional Info: 
+Cant access tohttps://www.tccb.gov.tr/en/activities/
+
+
+Info (2017-12-04 15:34:04.6755)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.mhp.org.tr/mhp_dil.php?dil=en====== Robot is Not Working
+	
+
+Info (2017-12-04 15:34:05.2360)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://stomp.straitstimes.com/====== Robot is Working
+	
+
+Info (2017-12-04 15:34:05.7591)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://odatv.com/c.php?c=siyaset====== Robot is Working
+	
+
+Info (2017-12-04 15:34:06.6028)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.bbc.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:39:35.4779)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.antaranews.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:39:35.7758)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.carigold.com/portal/forums/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:39:36.0292)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:39:36.3088)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.liputan6.com/====== Robot is Working
+	
+
+Info (2017-12-04 15:39:36.5680)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:39:36.8121)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/article/ ====== Robot is Not Working
+	
+
+Info (2017-12-04 15:39:37.9643)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.chp.org.tr/====== Robot is Working
+	
+
+Info (2017-12-04 15:39:38.4678)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.meralaksener.com.tr/====== Robot is Not Working
+	
+
+Info (2017-12-04 15:39:39.4841)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.gulenmovement.com/articles====== Robot is Not Working
+	
+
+Error (2017-12-04 15:39:40.5270)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:System.ArgumentOutOfRangeException
+             Exception Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+             Stack Trace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Object key)
+   at WindowsServiceRobot.Service1.OnStart(String[] args) in C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\Service1.cs:line 88
+             Additional Info: 
+Cant access tohttps://www.tccb.gov.tr/en/activities/
+
+
+Info (2017-12-04 15:39:41.5327)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.mhp.org.tr/mhp_dil.php?dil=en====== Robot is Not Working
+	
+
+Info (2017-12-04 15:39:42.0402)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://stomp.straitstimes.com/====== Robot is Working
+	
+
+Info (2017-12-04 15:39:42.8198)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://odatv.com/c.php?c=siyaset====== Robot is Working
+	
+
+Info (2017-12-04 15:39:43.1286)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.bbc.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:41:50.7774)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.antaranews.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:41:53.9078)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.carigold.com/portal/forums/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:41:54.1619)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:41:54.4395)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.liputan6.com/====== Robot is Working
+	
+
+Info (2017-12-04 15:41:54.6747)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:41:54.9338)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/article/ ====== Robot is Not Working
+	
+
+Info (2017-12-04 15:41:55.9919)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.chp.org.tr/====== Robot is Working
+	
+
+Info (2017-12-04 15:41:56.2982)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.meralaksener.com.tr/====== Robot is Not Working
+	
+
+Info (2017-12-04 15:41:56.5372)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.gulenmovement.com/articles====== Robot is Not Working
+	
+
+Error (2017-12-04 15:41:56.8168)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:System.ArgumentOutOfRangeException
+             Exception Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+             Stack Trace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Object key)
+   at WindowsServiceRobot.Service1.OnStart(String[] args) in C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\Service1.cs:line 83
+             Additional Info: 
+Cant access tohttps://www.tccb.gov.tr/en/activities/
+
+
+Info (2017-12-04 15:41:57.0788)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.mhp.org.tr/mhp_dil.php?dil=en====== Robot is Not Working
+	
+
+Info (2017-12-04 15:41:57.3458)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://stomp.straitstimes.com/====== Robot is Working
+	
+
+Info (2017-12-04 15:41:57.6049)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://odatv.com/c.php?c=siyaset====== Robot is Working
+	
+
+Info (2017-12-04 15:41:57.8742)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStart
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.bbc.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:54:23.5894)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.antaranews.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:54:23.9066)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.carigold.com/portal/forums/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:54:24.1418)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:54:24.5471)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.liputan6.com/====== Robot is Working
+	
+
+Info (2017-12-04 15:54:25.4858)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:54:25.7389)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/article/ ====== Robot is Not Working
+	
+
+Info (2017-12-04 15:54:30.3672)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.chp.org.tr/====== Robot is Working
+	
+
+Info (2017-12-04 15:54:30.6664)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.meralaksener.com.tr/====== Robot is Not Working
+	
+
+Info (2017-12-04 15:54:30.9076)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.gulenmovement.com/articles====== Robot is Not Working
+	
+
+Error (2017-12-04 15:54:31.1788)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:System.ArgumentOutOfRangeException
+             Exception Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+             Stack Trace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Object key)
+   at WindowsServiceRobot.Service1.GetRobotInfo() in C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\Service1.cs:line 90
+             Additional Info: 
+Cant access tohttps://www.tccb.gov.tr/en/activities/
+
+
+Info (2017-12-04 15:54:31.4260)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.mhp.org.tr/mhp_dil.php?dil=en====== Robot is Not Working
+	
+
+Info (2017-12-04 15:54:32.1885)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://stomp.straitstimes.com/====== Robot is Working
+	
+
+Info (2017-12-04 15:54:32.9100)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://odatv.com/c.php?c=siyaset====== Robot is Working
+	
+
+Info (2017-12-04 15:54:34.1909)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.bbc.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:56:22.3493)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.antaranews.com/ ====== Robot is Working
+	
+
+Info (2017-12-04 15:56:22.6394)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.carigold.com/portal/forums/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:56:22.8755)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:56:23.3961)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.liputan6.com/====== Robot is Working
+	
+
+Info (2017-12-04 15:56:23.6243)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/forum/index.php====== Robot is Not Working
+	
+
+Info (2017-12-04 15:56:23.8544)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/article/ ====== Robot is Not Working
+	
+
+Info (2017-12-04 15:56:25.4156)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.chp.org.tr/====== Robot is Working
+	
+
+Info (2017-12-04 15:56:25.9297)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.meralaksener.com.tr/====== Robot is Not Working
+	
+
+Info (2017-12-04 15:56:26.3595)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.gulenmovement.com/articles====== Robot is Not Working
+	
+
+Error (2017-12-04 15:56:26.8784)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:System.ArgumentOutOfRangeException
+             Exception Message:Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+             Stack Trace:   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Object key)
+   at WindowsServiceRobot.Service1.GetRobotInfo() in C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\Service1.cs:line 90
+             Additional Info: 
+Cant access tohttps://www.tccb.gov.tr/en/activities/
+
+
+Info (2017-12-04 15:56:27.4644)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.mhp.org.tr/mhp_dil.php?dil=en====== Robot is Not Working
+	
+
+Info (2017-12-04 15:56:27.9652)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://stomp.straitstimes.com/====== Robot is Working
+	
+
+Info (2017-12-04 15:56:28.5129)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://odatv.com/c.php?c=siyaset====== Robot is Working
+	
+
+Info (2017-12-04 15:56:28.8201)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.bbc.com/ ====== Robot is Working
+	
+
+Fatal (2017-12-04 15:56:28.8201)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStop
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: Fatal: Service is stoped
+
+
