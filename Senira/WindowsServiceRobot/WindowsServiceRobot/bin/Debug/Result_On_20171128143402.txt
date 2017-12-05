@@ -1,0 +1,15 @@
+[ https://www.antaranews.com/ ====== Robot is Working
+]	[ http://www.carigold.com/portal/forums/index.php======== Robot is Not Working
+]	[ https://www.kiasuparents.com/kiasu/forum/index.php======== Robot is Not Working
+]	[ http://www.liputan6.com/====== Robot is Working
+]	[ https://www.kiasuparents.com/kiasu/forum/index.php======== Robot is Not Working
+]	[ https://www.kiasuparents.com/kiasu/article/ ======== Robot is Not Working
+]	[ https://www.chp.org.tr/====== Robot is Working
+]	[ http://www.meralaksener.com.tr/======== Robot is Not Working
+]	[ http://www.gulenmovement.com/articles======== Robot is Not Working
+]	[ https://www.tccb.gov.tr/en/activities/====== Robot is Working
+]	[ https://www.mhp.org.tr/mhp_dil.php?dil=en======== Robot is Not Working
+]	[ http://stomp.straitstimes.com/====== Robot is Working
+]	[ http://odatv.com/c.php?c=siyaset====== Robot is Working
+]	[ http://www.bbc.com/ ======== Robot is Not Working
+]	

@@ -1,0 +1,14 @@
+C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\bin\Debug\WindowsServiceRobot.exe.config
+C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\bin\Debug\WindowsServiceRobot.exe
+C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\bin\Debug\WindowsServiceRobot.pdb
+C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\obj\Debug\WindowsServiceRobot.csprojResolveAssemblyReference.cache
+C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\obj\Debug\WindowsServiceRobot.csproj.CoreCompileInputs.cache
+C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\obj\Debug\WindowsServiceRobot.exe
+C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\obj\Debug\WindowsServiceRobot.pdb
+C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\bin\Debug\NLog.config
+C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\bin\Debug\NLog.dll
+C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\bin\Debug\NLog.xml
+C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\bin\Debug\Topshelf.dll
+C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\bin\Debug\Topshelf.xml

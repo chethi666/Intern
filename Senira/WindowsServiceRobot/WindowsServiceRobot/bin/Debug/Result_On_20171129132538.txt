@@ -1,0 +1,25 @@
+[ https://www.antaranews.com/ ======== Robot is Not Working
+]	[ http://www.carigold.com/portal/forums/index.php======== Robot is Not Working
+]	[ https://www.kiasuparents.com/kiasu/forum/index.php======== Robot is Not Working
+]	[ http://www.liputan6.com/======== Robot is Not Working
+]	[ https://www.kiasuparents.com/kiasu/forum/index.php======== Robot is Not Working
+]	[ https://www.kiasuparents.com/kiasu/article/ ======== Robot is Not Working
+]	Cant access tohttps://www.chp.org.tr/ due to System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Object key)
+   at WindowsServiceRobot.Program.Service1.OnStart(String[] args) in C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\Program.cs:line 114[ http://www.meralaksener.com.tr/======== Robot is Not Working
+]	[ http://www.gulenmovement.com/articles======== Robot is Not Working
+]	[ https://www.tccb.gov.tr/en/activities/====== Robot is Working
+]	[ https://www.mhp.org.tr/mhp_dil.php?dil=en======== Robot is Not Working
+]	Cant access tohttp://stomp.straitstimes.com/ due to System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Newtonsoft.Json.Linq.JContainer.GetItem(Int32 index)
+   at Newtonsoft.Json.Linq.JArray.get_Item(Object key)
+   at WindowsServiceRobot.Program.Service1.OnStart(String[] args) in C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\Program.cs:line 114[ http://odatv.com/c.php?c=siyaset====== Robot is Working
+]	[ http://www.bbc.com/ ======== Robot is Not Working
+]	
