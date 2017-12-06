@@ -1,0 +1,97 @@
+Info (2017-12-05 09:42:33.1016)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://edition.cnn.com/ 
+====== Robot is Working
+	
+
+Info (2017-12-05 09:42:34.1236)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://vickychong.wordpress.com/ 
+====== Robot is Not Working
+	
+
+Info (2017-12-05 09:42:35.3018)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.bbc.com/ 
+====== Robot is Working
+	
+
+Info (2017-12-05 09:42:36.1705)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.channelnewsasia.com/news/international 
+====== Robot is Not Working
+	
+
+Info (2017-12-05 09:42:36.5678)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.reuters.com/ 
+====== Robot is Not Working
+	
+
+Info (2017-12-05 09:42:40.0215)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:http://www.todayonline.com 
+====== Robot is Working
+	
+
+Info (2017-12-05 09:42:40.2501)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.kiasuparents.com/kiasu/article/ 
+====== Robot is Not Working
+	
+
+Info (2017-12-05 09:42:42.1447)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.GetRobotInfo
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: 
+Info:https://www.antaranews.com/ 
+====== Robot is Working
+	
+
+Fatal (2017-12-05 09:42:42.1517)--------- 
+             
+             Call Site:WindowsServiceRobot.Service1.OnStop
+             Exception Type:
+             Exception Message:
+             Stack Trace:
+             Additional Info: Fatal: Service is stoped
+
+
