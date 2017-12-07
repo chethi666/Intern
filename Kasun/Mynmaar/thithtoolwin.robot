@@ -75,7 +75,7 @@
   "PublishDate" : "",
   "Text" : "",
   "Language" : "my",
-  "SocialNetwork" : "news",
+  "SocialNetwork" : "News",
   "Country" : "MM"
 }</property>
             <property name="currentlyAssigned" class="Boolean">true</property>
@@ -477,9 +477,6 @@
       <object class="Transition" serializationversion="3" id="29">
         <property name="name" class="String">Assign Author</property>
         <property name="stepAction" class="AssignVariable" serializationversion="4">
-          <property name="stringExpr" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
-            <property name="value" class="String">thithtoolwin</property>
-          </property>
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
             <property name="name" class="String">news.Author</property>
           </property>
