@@ -87,16 +87,15 @@
   "Text" : "",
   "Source" : "Eleven Media",
   "SourceUrl" : "http://news-eleven.com/emg-news",
-  "Views" : "",
   "PublishDate" : "",
   "ContentUrl" : "",
-  "TotalComments" : "",
   "Comments" : {
                  "data" : []
                },
   "Schema" : "News",
   "Author" : "",
-  "Country" : "Myanmar"
+  "Language" : "MY",
+  "Country" : "MM"
 }</property>
             <property name="currentlyAssigned" class="Boolean">true</property>
             <property name="lastKnownAttributeType" class="java.lang.Class">kapow.robot.plugin.common.domain.JSONAttributeType</property>
@@ -345,7 +344,11 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
             </property>
           </object>
         </property>
-        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0">
+          <property name="reportingViaAPI" class="Boolean">false</property>
+          <property name="reportingViaLog" class="Boolean">false</property>
+          <property name="controlFlow" class="kapow.robot.robomaker.robot.ControlFlow$IgnoreAndContinue"/>
+        </property>
         <property name="comment">
           <null/>
         </property>
