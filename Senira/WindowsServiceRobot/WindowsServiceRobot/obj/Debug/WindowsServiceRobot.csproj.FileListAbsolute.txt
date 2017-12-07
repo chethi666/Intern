@@ -12,3 +12,4 @@ C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\bin\Debug\
 C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\bin\Debug\NLog.xml
 C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\bin\Debug\Topshelf.dll
 C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\bin\Debug\Topshelf.xml
+C:\Users\MPOC082\source\repos\WindowsServiceRobot\WindowsServiceRobot\bin\Debug\RestSharp.dll

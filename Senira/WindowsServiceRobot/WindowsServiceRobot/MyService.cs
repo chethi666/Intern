@@ -2,24 +2,58 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using NLog;
+using System.Configuration;
 
 namespace WindowsServiceRobot
 {
     class MyService
     {
-       // public void Start()
-        //    {
+        
+        private static Logger logger = LogManager.GetCurrentClassLogger();
 
-        //        // write code here that runs when the Windows Service starts up.  
-        //        Service1 myService = new Service1();
-        //        myService.OnDebug();
-        //        System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
-        //    }
-        //    public void Stop()
-        //    {
-        //        // write code here that runs when the Windows Service stops.
-        //        logger.Fatal("Fatal: Service is stoped\n");
-        //    }
+
+        readonly CancellationTokenSource _cancellationTokenSource;
+        readonly CancellationToken _cancellationToken;
+        readonly Task _task;
+
+        public MyService()
+        {
+            _cancellationTokenSource = new CancellationTokenSource();
+            _cancellationToken = _cancellationTokenSource.Token;
+
+            _task = new Task(DoWork, _cancellationToken);
+        }
+
+
+
+        public void Start()
+        {
+            _task.Start();
+            ///Start service                      
+
+        }
+
+
+        public void Stop()
+        {
+            _cancellationTokenSource.Cancel();
+
+            _task.Wait();   ///Stop service    
+        }
+
+        private void DoWork()
+        {
+
+
+            while (!_cancellationTokenSource.IsCancellationRequested)
+            {
+                Service1 check = new Service1();
+                check.OnDebug();
+                System.Threading.Thread.Sleep(12 * 60 * 60 * 1000);
+            }
+        }
     }
 }
