@@ -539,7 +539,7 @@
               </property>
               <property name="dataConverters" class="DataConverters">
                 <element class="EvaluateExpression" serializationversion="0">
-                  <property name="expression" class="String">replaceText(news.Date," ","T")</property>
+                  <property name="expression" class="String">replaceText(replaceText(news.Date," ","T"),".0","")</property>
                 </element>
               </property>
               <property name="toAttributeName" class="kapow.robot.plugin.common.support.AttributeName">
