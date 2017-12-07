@@ -379,6 +379,23 @@
         <property name="name" class="String">Extract Date</property>
         <property name="stepAction" class="ExtractTagAttribute2" serializationversion="3">
           <property name="tagAttr" class="String" id="29">datetime</property>
+          <property name="dataConverters" class="DataConverters">
+            <element class="ExtractDate">
+              <property name="formats" class="BeanList">
+                <object class="kapow.robot.plugin.common.stringprocessor.datefetcher.PatternBasedDateFormatSpecification">
+                  <property name="pattern" class="kapow.robot.plugin.common.support.expression.stringexpr.DateExtractorPatternValueStringExpression">
+                    <property name="value" class="String">yyyy-MM-dd hh:mm:ss</property>
+                  </property>
+                </object>
+              </property>
+              <property name="defaultTimeZone" class="sun.util.calendar.ZoneInfo">
+                <property name="ID" class="java.lang.String">GMT</property>
+              </property>
+              <property name="resultTimeZone" class="sun.util.calendar.ZoneInfo">
+                <property name="ID" class="java.lang.String">Etc/GMT+8</property>
+              </property>
+            </element>
+          </property>
           <property name="Name" class="kapow.robot.plugin.common.support.AttributeName2">
             <property name="name" class="String">news.Date</property>
           </property>
