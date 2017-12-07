@@ -366,6 +366,12 @@
                   </property>
                 </object>
               </property>
+              <property name="defaultTimeZone" class="sun.util.calendar.ZoneInfo">
+                <property name="ID" class="java.lang.String">Greenwich</property>
+              </property>
+              <property name="resultTimeZone" class="sun.util.calendar.ZoneInfo">
+                <property name="ID" class="java.lang.String">Etc/GMT+6</property>
+              </property>
             </element>
           </property>
           <property name="Name" class="kapow.robot.plugin.common.support.AttributeName2">

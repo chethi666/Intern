@@ -366,6 +366,9 @@
                   </property>
                 </object>
               </property>
+              <property name="resultTimeZone" class="sun.util.calendar.ZoneInfo">
+                <property name="ID" class="java.lang.String">Etc/GMT+6</property>
+              </property>
             </element>
           </property>
           <property name="Name" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -477,9 +480,6 @@
       <object class="Transition" serializationversion="3" id="29">
         <property name="name" class="String">Assign Author</property>
         <property name="stepAction" class="AssignVariable" serializationversion="4">
-          <property name="stringExpr" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
-            <property name="value" class="String">thithtoolwin</property>
-          </property>
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
             <property name="name" class="String">news.Author</property>
           </property>

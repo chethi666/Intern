@@ -400,6 +400,9 @@
                   </property>
                 </object>
               </property>
+              <property name="defaultTimeZone" class="sun.util.calendar.ZoneInfo">
+                <property name="ID" class="java.lang.String">GMT</property>
+              </property>
               <property name="resultTimeZone" class="sun.util.calendar.ZoneInfo">
                 <property name="ID" class="java.lang.String">Etc/GMT+6</property>
               </property>
