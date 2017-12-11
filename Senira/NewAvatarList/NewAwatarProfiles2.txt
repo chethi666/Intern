@@ -1,0 +1,42 @@
+FullName:eliza bennett
+Email:alizabennett@yandex.com
+FullName:teresa ford
+Email:teresaford@yandex.com
+FullName:judy gregory
+Email:judygregory@yandex.com
+FullName:sheryl morris
+Email:sherylmorris@yandex.com
+FullName:alexandra kelley
+Email:aleksakelley@yandex.com
+FullName:tracy perez
+Email:pereztracy@yandex.com
+FullName:heather hill
+Email:hillheat@yandex.com
+FullName:sophie lane
+Email:l4nesophie@yandex.com
+FullName:suzanna brooks
+Email:brookssuzanna@yandex.com	     
+FullName:sarah caldwell
+Email:sahracaldwell@yandex.com
+FullName:andrea barrett
+Email:andrea.barrett@yandex.com
+FullName:eleanor peters
+Email:aleonorapeters@yandex.com
+FullName:barbara beck
+Email:barbarabeck@yandex.com
+FullName:alison pierce
+Email:alisonpierce@yandex.com
+FullName:isabella wade
+Email:isabellawade@yandex.com
+FullName:erin washington
+Email:w4shingtonerin@yandex.com
+FullName:marie torres
+Email:t0rresmarie@yandex.com
+FullName:sam fletcher
+Email:fletchersam@yandex.com
+FullName:sara powell
+Email:p0wellsara@yandex.com
+FullName:lauren price
+Email:pr1celauren@yandex.com
+FullName:sara freeman
+Email:fr3emansara@yandex.com
