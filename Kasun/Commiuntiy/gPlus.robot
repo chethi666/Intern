@@ -53,7 +53,7 @@
         </property>
         <property name="assignments" class="AttributeAssignments">
           <property name="ProfileURL" class="AttributeAssignment">
-            <property name="attributeValue" class="String">https://support.google.com/plus/answer/6320394?co=GENIE.Platform%3DDesktop&amp;hl=en </property>
+            <property name="attributeValue" class="String">https://plus.google.com/communities/111307896985370218624 </property>
             <property name="currentlyAssigned" class="Boolean">true</property>
             <property name="lastKnownAttributeType" class="java.lang.Class">kapow.robot.plugin.common.domain.TextAttributeType</property>
           </property>
@@ -1206,7 +1206,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="comment">
           <null/>
         </property>
-        <property name="enabled" idref="17"/>
+        <property name="enabled" idref="16"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
       <object class="Transition" serializationversion="3" id="69">
@@ -1287,6 +1287,26 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
       <object class="Transition" serializationversion="3" id="73">
+        <property name="name" class="String">Assign User Name</property>
+        <property name="stepAction" class="AssignVariable" serializationversion="4">
+          <property name="stringExpr" class="kapow.robot.plugin.common.support.expression.multipletype.ComplexVariableAllowedVariableExpression" serializationversion="2">
+            <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+              <property name="name" class="String">name.Name</property>
+            </property>
+          </property>
+          <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+            <property name="name" idref="11"/>
+          </property>
+        </property>
+        <property name="elementFinders" class="ElementFinders"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="17"/>
+        <property name="changedProperties" class="java.util.HashSet"/>
+      </object>
+      <object class="Transition" serializationversion="3" id="74">
         <property name="name" class="String">Assign User Id</property>
         <property name="stepAction" class="AssignVariable" serializationversion="4">
           <property name="stringExpr" class="Expression" serializationversion="1">
@@ -1304,7 +1324,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="enabled" idref="17"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="74">
+      <object class="Transition" serializationversion="3" id="75">
         <property name="name" class="String">Assign Profile URL</property>
         <property name="stepAction" class="AssignVariable" serializationversion="4">
           <property name="stringExpr" class="Expression" serializationversion="1">
@@ -1322,7 +1342,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="enabled" idref="17"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="75">
+      <object class="Transition" serializationversion="3" id="76">
         <property name="name" class="String">Assign Variable</property>
         <property name="stepAction" class="AssignVariable" serializationversion="4">
           <property name="stringExpr" class="Expression" serializationversion="1">
@@ -1342,7 +1362,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="76">
+      <object class="Transition" serializationversion="3" id="77">
         <property name="name" class="String">Open Variable</property>
         <property name="stepAction" class="OpenVariable">
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1359,7 +1379,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="77">
+      <object class="Transition" serializationversion="3" id="78">
         <property name="name" class="String">Set JSON</property>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
@@ -1384,7 +1404,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="78">
+      <object class="Transition" serializationversion="3" id="79">
         <property name="name" class="String">Set JSON</property>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
@@ -1409,7 +1429,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="79">
+      <object class="Transition" serializationversion="3" id="80">
         <property name="name" class="String">Set JSON</property>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
@@ -1434,7 +1454,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="80">
+      <object class="Transition" serializationversion="3" id="81">
         <property name="name" class="String">Set JSON</property>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
@@ -1459,7 +1479,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="81">
+      <object class="Transition" serializationversion="3" id="82">
         <property name="name" class="String">Set JSON</property>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
@@ -1484,7 +1504,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="82">
+      <object class="Transition" serializationversion="3" id="83">
         <property name="name" class="String">Set JSON</property>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
@@ -1509,7 +1529,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="83">
+      <object class="Transition" serializationversion="3" id="84">
         <property name="name" class="String">Set JSON</property>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
@@ -1534,8 +1554,8 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Try" id="84"/>
-      <object class="Transition" serializationversion="3" id="85">
+      <object class="Try" id="85"/>
+      <object class="Transition" serializationversion="3" id="86">
         <property name="name" class="String">Test Value</property>
         <property name="stepAction" class="TestValue" serializationversion="0">
           <property name="condition" class="Expression" serializationversion="1">
@@ -1556,7 +1576,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="86">
+      <object class="Transition" serializationversion="3" id="87">
         <property name="name" class="String">Call REST Web Service</property>
         <property name="stepAction" class="CallRESTWebService2" serializationversion="1">
           <property name="urlProvider" class="Expression" serializationversion="1">
@@ -1595,7 +1615,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="87">
+      <object class="Transition" serializationversion="3" id="88">
         <property name="name" class="String">Open Variable</property>
         <property name="stepAction" class="OpenVariable">
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1612,7 +1632,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="88">
+      <object class="Transition" serializationversion="3" id="89">
         <property name="name" class="String">Extract Entity ID</property>
         <property name="stepAction" class="ExtractJSON2">
           <property name="dataConverters" class="DataConverters">
@@ -1638,7 +1658,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="89">
+      <object class="Transition" serializationversion="3" id="90">
         <property name="name" class="String">Open Relationship Json</property>
         <property name="stepAction" class="OpenVariable">
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1653,8 +1673,8 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="enabled" idref="17"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="90">
-        <property name="name" class="String" id="91">Set JSON</property>
+      <object class="Transition" serializationversion="3" id="91">
+        <property name="name" class="String" id="92">Set JSON</property>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1676,8 +1696,8 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="enabled" idref="17"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="92">
-        <property name="name" idref="91"/>
+      <object class="Transition" serializationversion="3" id="93">
+        <property name="name" idref="92"/>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1699,8 +1719,8 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="enabled" idref="17"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="93">
-        <property name="name" idref="91"/>
+      <object class="Transition" serializationversion="3" id="94">
+        <property name="name" idref="92"/>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1722,8 +1742,8 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="enabled" idref="17"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="94">
-        <property name="name" idref="91"/>
+      <object class="Transition" serializationversion="3" id="95">
+        <property name="name" idref="92"/>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1745,8 +1765,8 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="enabled" idref="17"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="95">
-        <property name="name" idref="91"/>
+      <object class="Transition" serializationversion="3" id="96">
+        <property name="name" idref="92"/>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1768,8 +1788,8 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="enabled" idref="17"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="96">
-        <property name="name" idref="91"/>
+      <object class="Transition" serializationversion="3" id="97">
+        <property name="name" idref="92"/>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1791,8 +1811,8 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="enabled" idref="17"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="97">
-        <property name="name" idref="91"/>
+      <object class="Transition" serializationversion="3" id="98">
+        <property name="name" idref="92"/>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1814,8 +1834,8 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="enabled" idref="17"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="98">
-        <property name="name" idref="91"/>
+      <object class="Transition" serializationversion="3" id="99">
+        <property name="name" idref="92"/>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1837,8 +1857,8 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="enabled" idref="17"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="99">
-        <property name="name" idref="91"/>
+      <object class="Transition" serializationversion="3" id="100">
+        <property name="name" idref="92"/>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1860,8 +1880,8 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="enabled" idref="17"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="100">
-        <property name="name" idref="91"/>
+      <object class="Transition" serializationversion="3" id="101">
+        <property name="name" idref="92"/>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1883,7 +1903,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="enabled" idref="17"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="101">
+      <object class="Transition" serializationversion="3" id="102">
         <property name="name" class="String">Call REST Web Service</property>
         <property name="stepAction" class="CallRESTWebService2" serializationversion="1">
           <property name="urlProvider" class="Expression" serializationversion="1">
@@ -1928,8 +1948,8 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
           <element class="String">name</element>
         </property>
       </object>
-      <object class="End" id="102"/>
-      <object class="Transition" serializationversion="3" id="103">
+      <object class="End" id="103"/>
+      <object class="Transition" serializationversion="3" id="104">
         <property name="name" class="String">Open Variable</property>
         <property name="stepAction" class="OpenVariable">
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1946,7 +1966,7 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="104">
+      <object class="Transition" serializationversion="3" id="105">
         <property name="name" class="String">Extract Entity ID</property>
         <property name="stepAction" class="ExtractJSON2">
           <property name="dataConverters" class="DataConverters">
@@ -1976,7 +1996,7 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="105">
+      <object class="Transition" serializationversion="3" id="106">
         <property name="name" class="String">Open Variable</property>
         <property name="stepAction" class="OpenVariable">
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1993,7 +2013,7 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
           <element class="String">name</element>
         </property>
       </object>
-      <object class="Transition" serializationversion="3" id="106">
+      <object class="Transition" serializationversion="3" id="107">
         <property name="name" class="String">Extract Entity ID</property>
         <property name="stepAction" class="ExtractJSON2">
           <property name="dataConverters" class="DataConverters">
@@ -2124,7 +2144,7 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
       </object>
       <object class="TransitionEdge">
         <from idref="48"/>
-        <to idref="105"/>
+        <to idref="106"/>
       </object>
       <object class="TransitionEdge">
         <from idref="49"/>
@@ -2263,12 +2283,12 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
         <to idref="85"/>
       </object>
       <object class="TransitionEdge">
-        <from idref="84"/>
-        <to idref="103"/>
+        <from idref="85"/>
+        <to idref="86"/>
       </object>
       <object class="TransitionEdge">
         <from idref="85"/>
-        <to idref="86"/>
+        <to idref="104"/>
       </object>
       <object class="TransitionEdge">
         <from idref="86"/>
@@ -2288,10 +2308,10 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
       </object>
       <object class="TransitionEdge">
         <from idref="90"/>
-        <to idref="92"/>
+        <to idref="91"/>
       </object>
       <object class="TransitionEdge">
-        <from idref="92"/>
+        <from idref="91"/>
         <to idref="93"/>
       </object>
       <object class="TransitionEdge">
@@ -2331,19 +2351,23 @@ Default value changed: httpUserAgent null -&gt; kapow.robot.plugin.common.suppor
         <to idref="102"/>
       </object>
       <object class="TransitionEdge">
-        <from idref="103"/>
-        <to idref="104"/>
+        <from idref="102"/>
+        <to idref="103"/>
       </object>
       <object class="TransitionEdge">
         <from idref="104"/>
-        <to idref="89"/>
+        <to idref="105"/>
       </object>
       <object class="TransitionEdge">
         <from idref="105"/>
-        <to idref="106"/>
+        <to idref="90"/>
       </object>
       <object class="TransitionEdge">
         <from idref="106"/>
+        <to idref="107"/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="107"/>
         <to idref="53"/>
       </object>
     </edges>
