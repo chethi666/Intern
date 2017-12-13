@@ -1417,11 +1417,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
               </property>
             </property>
             <property name="nodePath" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
-              <property name="value" class="String">.*.div</property>
-            </property>
-            <property name="attributeName" class="String">class</property>
-            <property name="attributeValue" class="kapow.robot.plugin.common.support.predicate.unary.string.FixedStringPredicate">
-              <property name="text" class="String">z5rWI</property>
+              <property name="value" class="String">.*.span.text</property>
             </property>
           </object>
         </property>
@@ -2275,11 +2271,11 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
               </property>
             </property>
             <property name="nodePath" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
-              <property name="value" class="String">.*.div</property>
+              <property name="value" class="String">.*.span</property>
             </property>
-            <property name="attributeName" idref="57"/>
+            <property name="attributeName" class="String">class</property>
             <property name="attributeValue" class="kapow.robot.plugin.common.support.predicate.unary.string.FixedStringPredicate">
-              <property name="text" class="String">vg3XHd</property>
+              <property name="text" class="String">nptHFf</property>
             </property>
           </object>
         </property>
