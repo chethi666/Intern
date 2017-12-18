@@ -5,5 +5,10 @@
       <version>9.7.6</version>
     </saved-by-versions>
   </prologue>
-  <property name="attributes" class="kapow.robot.common.domain.Attributes"/>
+  <property name="attributes" class="kapow.robot.common.domain.Attributes">
+    <object class="kapow.robot.common.domain.Attribute" serializationversion="0">
+      <property name="name" class="String">output</property>
+      <property name="type" class="kapow.robot.plugin.common.domain.TextAttributeType"/>
+    </object>
+  </property>
 </object>
