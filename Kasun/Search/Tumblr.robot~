@@ -15,9 +15,7 @@
       <typed-variable name="Input" type-name="Search_Input"/>
       <typed-variable name="UserDetails" type-name="UserDeatils"/>
     </typed-variables>
-    <global-variables>
-      <variable name="Output"/>
-    </global-variables>
+    <global-variables/>
     <parameters>
       <parameter name="Input" type-name="Search_Input"/>
     </parameters>
@@ -30,7 +28,6 @@
   <property name="variables" class="Variables">
     <object class="Variable" serializationversion="1">
       <property name="name" class="String">Output</property>
-      <property name="global" class="Boolean">true</property>
       <property name="initialAssignment" class="InitialVariableAssignment">
         <property name="type" class="TypeReference" serializationversion="0">
           <property name="typeName" class="String">Output</property>
@@ -83,6 +80,7 @@
     </object>
     <object class="Variable" serializationversion="1">
       <property name="name" class="String" id="3">Output_JSON</property>
+      <property name="global" class="Boolean">true</property>
       <property name="initialAssignment" class="InitialVariableAssignment">
         <property name="type" idref="1"/>
         <property name="assignments" class="AttributeAssignments">

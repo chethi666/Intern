@@ -533,17 +533,15 @@
       </object>
       <object class="End" id="33"/>
       <object class="Transition" serializationversion="3" id="34">
-        <property name="name" class="String">Convert Variables</property>
-        <property name="stepAction" class="ConvertVariables">
-          <property name="entries" class="kapow.robot.plugin.common.stateprocessor.attributeconverter.AttributeConverterEntries">
-            <object class="kapow.robot.plugin.common.stateprocessor.attributeconverter.AttributeConverterEntry" serializationversion="0">
-              <property name="fromAttributeName" class="kapow.robot.plugin.common.support.AttributeName">
-                <property name="name" class="String">Output_JSON</property>
-              </property>
-              <property name="toAttributeName" class="kapow.robot.plugin.common.support.AttributeName">
-                <property name="name" class="String">Output.output</property>
-              </property>
-            </object>
+        <property name="name" class="String">Assign Output</property>
+        <property name="stepAction" class="AssignVariable" serializationversion="4">
+          <property name="stringExpr" class="kapow.robot.plugin.common.support.expression.multipletype.ComplexVariableAllowedVariableExpression" serializationversion="2">
+            <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+              <property name="name" idref="3"/>
+            </property>
+          </property>
+          <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+            <property name="name" class="String">Output.output</property>
           </property>
         </property>
         <property name="elementFinders" class="ElementFinders"/>
