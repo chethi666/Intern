@@ -272,7 +272,7 @@
         <property name="name" class="String">Test Value</property>
         <property name="stepAction" class="TestValue" serializationversion="0">
           <property name="condition" class="Expression" serializationversion="1">
-            <property name="text" class="String">iteration&gt;1</property>
+            <property name="text" class="String">iteration&gt;=1</property>
           </property>
         </property>
         <property name="elementFinders" class="ElementFinders"/>
