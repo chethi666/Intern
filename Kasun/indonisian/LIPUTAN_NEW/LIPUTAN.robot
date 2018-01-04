@@ -940,7 +940,7 @@
         <property name="comment">
           <null/>
         </property>
-        <property name="enabled" idref="9"/>
+        <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
       <object class="Transition" serializationversion="3" id="59">
@@ -955,7 +955,7 @@
         <property name="comment">
           <null/>
         </property>
-        <property name="enabled" idref="9"/>
+        <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
       <object class="Transition" serializationversion="3" id="60">
@@ -979,7 +979,7 @@
         <property name="comment">
           <null/>
         </property>
-        <property name="enabled" idref="9"/>
+        <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
       <object class="Transition" serializationversion="3" id="61">
@@ -1030,7 +1030,7 @@
         <property name="comment">
           <null/>
         </property>
-        <property name="enabled" idref="9"/>
+        <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
       <object class="Transition" serializationversion="3" id="62">
@@ -1045,7 +1045,7 @@
         <property name="comment">
           <null/>
         </property>
-        <property name="enabled" idref="9"/>
+        <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
       <object class="Transition" serializationversion="3" id="63">
