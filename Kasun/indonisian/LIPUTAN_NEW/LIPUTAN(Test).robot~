@@ -566,24 +566,6 @@
         <property name="name" class="String">Assign Content</property>
         <property name="stepAction" class="AssignVariable" serializationversion="4">
           <property name="stringExpr" class="Expression" serializationversion="1">
-            <property name="text" class="String">Text</property>
-          </property>
-          <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
-            <property name="name" class="String">News.Content</property>
-          </property>
-        </property>
-        <property name="elementFinders" class="ElementFinders"/>
-        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
-        <property name="comment">
-          <null/>
-        </property>
-        <property name="enabled" idref="10"/>
-        <property name="changedProperties" class="java.util.HashSet"/>
-      </object>
-      <object class="Transition" serializationversion="3" id="44">
-        <property name="name" class="String">Assign Content</property>
-        <property name="stepAction" class="AssignVariable" serializationversion="4">
-          <property name="stringExpr" class="Expression" serializationversion="1">
             <property name="text" class="String"> replaceText(News.Content,"Liputan6.com, Jakarta -","")</property>
           </property>
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -602,7 +584,7 @@
         <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="45">
+      <object class="Transition" serializationversion="3" id="44">
         <property name="name" class="String">Assign Content</property>
         <property name="stepAction" class="AssignVariable" serializationversion="4">
           <property name="stringExpr" class="Expression" serializationversion="1">
@@ -624,7 +606,7 @@
         <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="46">
+      <object class="Transition" serializationversion="3" id="45">
         <property name="name" class="String">Assign Content</property>
         <property name="stepAction" class="AssignVariable" serializationversion="4">
           <property name="stringExpr" class="Expression" serializationversion="1">
@@ -646,7 +628,7 @@
         <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="47">
+      <object class="Transition" serializationversion="3" id="46">
         <property name="name" class="String">Assign URL</property>
         <property name="stepAction" class="AssignVariable" serializationversion="4">
           <property name="stringExpr" class="Expression" serializationversion="1">
@@ -664,7 +646,7 @@
         <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="48">
+      <object class="Transition" serializationversion="3" id="47">
         <property name="name" class="String">Extract Screenshot</property>
         <property name="stepAction" class="ExtractScreenshot">
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -689,7 +671,7 @@
         <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="49">
+      <object class="Transition" serializationversion="3" id="48">
         <property name="name" class="String">Open JSON</property>
         <property name="stepAction" class="OpenVariable">
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -704,8 +686,8 @@
         <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="50">
-        <property name="name" class="String" id="51">Set JSON</property>
+      <object class="Transition" serializationversion="3" id="49">
+        <property name="name" class="String" id="50">Set JSON</property>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -727,8 +709,8 @@
         <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="52">
-        <property name="name" idref="51"/>
+      <object class="Transition" serializationversion="3" id="51">
+        <property name="name" idref="50"/>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -750,8 +732,8 @@
         <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="53">
-        <property name="name" idref="51"/>
+      <object class="Transition" serializationversion="3" id="52">
+        <property name="name" idref="50"/>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -773,8 +755,8 @@
         <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="54">
-        <property name="name" idref="51"/>
+      <object class="Transition" serializationversion="3" id="53">
+        <property name="name" idref="50"/>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -796,7 +778,7 @@
         <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="55">
+      <object class="Transition" serializationversion="3" id="54">
         <property name="name" class="String">Set JSON</property>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
@@ -819,8 +801,8 @@
         <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="56">
-        <property name="name" idref="51"/>
+      <object class="Transition" serializationversion="3" id="55">
+        <property name="name" idref="50"/>
         <property name="stepAction" class="SetJSONStepAction">
           <property name="newContent" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
             <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -842,7 +824,7 @@
         <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="57">
+      <object class="Transition" serializationversion="3" id="56">
         <property name="name" class="String">Call REST Web Service</property>
         <property name="stepAction" class="CallRESTWebService2" serializationversion="1">
           <property name="urlProvider" class="Expression" serializationversion="1">
@@ -877,7 +859,7 @@
         <property name="enabled" idref="9"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="58">
+      <object class="Transition" serializationversion="3" id="57">
         <property name="name" class="String">Open Output JSON</property>
         <property name="stepAction" class="OpenVariable">
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -892,7 +874,7 @@
         <property name="enabled" idref="9"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="59">
+      <object class="Transition" serializationversion="3" id="58">
         <property name="name" class="String">Extract Document ID</property>
         <property name="stepAction" class="ExtractJSON2">
           <property name="dataConverters" class="DataConverters">
@@ -916,7 +898,7 @@
         <property name="enabled" idref="9"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="60">
+      <object class="Transition" serializationversion="3" id="59">
         <property name="name" class="String">Call REST Web Service</property>
         <property name="stepAction" class="CallRESTWebService2" serializationversion="1">
           <property name="urlProvider" class="Expression" serializationversion="1">
@@ -967,7 +949,7 @@
         <property name="enabled" idref="9"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="61">
+      <object class="Transition" serializationversion="3" id="60">
         <property name="name" class="String">Open Output JSON</property>
         <property name="stepAction" class="OpenVariable">
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -982,7 +964,7 @@
         <property name="enabled" idref="9"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="62">
+      <object class="Transition" serializationversion="3" id="61">
         <property name="name" class="String">Return Value</property>
         <property name="stepAction" class="ReturnVariable" serializationversion="1">
           <property name="variableName" class="kapow.robot.plugin.common.support.VariableName">
@@ -997,7 +979,7 @@
         <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="Transition" serializationversion="3" id="63">
+      <object class="Transition" serializationversion="3" id="62">
         <property name="name" class="String">Assign Text</property>
         <property name="stepAction" class="AssignVariable" serializationversion="4">
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
@@ -1012,7 +994,25 @@
         <property name="enabled" idref="10"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
-      <object class="End" id="64"/>
+      <object class="End" id="63"/>
+      <object class="Transition" serializationversion="3" id="64">
+        <property name="name" class="String">Assign Content</property>
+        <property name="stepAction" class="AssignVariable" serializationversion="4">
+          <property name="stringExpr" class="Expression" serializationversion="1">
+            <property name="text" class="String">Text</property>
+          </property>
+          <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+            <property name="name" class="String">News.Content</property>
+          </property>
+        </property>
+        <property name="elementFinders" class="ElementFinders"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="10"/>
+        <property name="changedProperties" class="java.util.HashSet"/>
+      </object>
       <object class="Transition" serializationversion="3" id="65">
         <property name="name" class="String">Extract Date</property>
         <property name="stepAction" class="ExtractTagAttribute2" serializationversion="3">
@@ -1276,7 +1276,7 @@
       </object>
       <object class="TransitionEdge">
         <from idref="41"/>
-        <to idref="43"/>
+        <to idref="64"/>
       </object>
       <object class="TransitionEdge">
         <from idref="42"/>
@@ -1308,10 +1308,10 @@
       </object>
       <object class="TransitionEdge">
         <from idref="49"/>
-        <to idref="50"/>
+        <to idref="51"/>
       </object>
       <object class="TransitionEdge">
-        <from idref="50"/>
+        <from idref="51"/>
         <to idref="52"/>
       </object>
       <object class="TransitionEdge">
@@ -1359,8 +1359,8 @@
         <to idref="63"/>
       </object>
       <object class="TransitionEdge">
-        <from idref="63"/>
-        <to idref="64"/>
+        <from idref="64"/>
+        <to idref="43"/>
       </object>
       <object class="TransitionEdge">
         <from idref="65"/>
