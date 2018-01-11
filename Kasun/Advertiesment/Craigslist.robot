@@ -79,7 +79,6 @@
   "Title" : "",
   "PublishDate" : "",
   "Text" : "",
-  "Language" : "en",
   "SocialNetwork" : "Forum"
 }</property>
             <property name="currentlyAssigned" class="Boolean">true</property>
