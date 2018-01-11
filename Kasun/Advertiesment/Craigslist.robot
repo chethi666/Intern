@@ -80,8 +80,7 @@
   "PublishDate" : "",
   "Text" : "",
   "Language" : "en",
-  "SocialNetwork" : "forum",
-  "Country" : ""
+  "SocialNetwork" : "Forum"
 }</property>
             <property name="currentlyAssigned" class="Boolean">true</property>
             <property name="lastKnownAttributeType" class="java.lang.Class">kapow.robot.plugin.common.domain.JSONAttributeType</property>
