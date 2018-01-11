@@ -425,6 +425,12 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="stepAction" class="Extract" serializationversion="1">
           <property name="dataConverters" class="DataConverters">
             <element class="RemoveSpaces"/>
+            <element class="ReplaceText">
+              <property name="textToReplace" class="String">email to friend</property>
+            </element>
+            <element class="ReplaceText">
+              <property name="textToReplace" class="String"> Home | My Account | Buy Credits | Help | Privacy | Terms | Safety sfbay.backpage.com is an interactive computer service that enables access by multiple users and should not be treated as the publisher or speaker of any information provided by another information content provider. © 2018 backpage.com</property>
+            </element>
           </property>
           <property name="attributeName" class="kapow.robot.plugin.common.support.AttributeName2">
             <property name="name" class="String">newsArticle.Content</property>
@@ -433,11 +439,11 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="elementFinders" class="ElementFinders">
           <object class="DefaultNamedElementAwareDOMElementFinder" serializationversion="4">
             <property name="nodePath" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
-              <property name="value" class="String">.*.div.div.div.div</property>
+              <property name="value" class="String">.*.div.div.div</property>
             </property>
-            <property name="attributeName" idref="25"/>
+            <property name="attributeName" class="String">class</property>
             <property name="attributeValue" class="kapow.robot.plugin.common.support.predicate.unary.string.FixedStringPredicate">
-              <property name="text" class="String">postingBody</property>
+              <property name="text" class="String">posting</property>
             </property>
           </object>
         </property>
@@ -453,9 +459,6 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="stepAction" class="ExtractScreenshot">
           <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
             <property name="name" class="String">Attachment.Content</property>
-          </property>
-          <property name="imageFormat" class="ImageFormat">
-            <property name="enum-name" class="String">JPG</property>
           </property>
         </property>
         <property name="elementFinders" class="ElementFinders">
@@ -520,7 +523,6 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
  "Author":  "&lt;&lt; + newsArticle.Author + &gt;&gt;",
  "Source":  "&lt;&lt; + newsArticle.Source + &gt;&gt;",
  "Schema": "&lt;&lt; + newsArticle.Schema + &gt;&gt;",
-  "Language" : "en",
  "SocialNetwork": "Forum"
 }&lt;&lt;</property>
           </property>
