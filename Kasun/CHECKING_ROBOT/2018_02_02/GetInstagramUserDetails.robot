@@ -63,12 +63,12 @@
         </property>
         <property name="assignments" class="AttributeAssignments">
           <property name="EntityId" class="AttributeAssignment">
-            <property name="attributeValue" class="String">40628710</property>
+            <property name="attributeValue" class="String">41504030</property>
             <property name="currentlyAssigned" class="Boolean">true</property>
             <property name="lastKnownAttributeType" class="java.lang.Class" id="1">kapow.robot.plugin.common.domain.TextAttributeType</property>
           </property>
           <property name="InstagramURL" class="AttributeAssignment">
-            <property name="attributeValue" class="String">https://www.instagram.com/disha_patel66/?hl=en</property>
+            <property name="attributeValue" class="String">https://www.instagram.com/sheran_jaya/?hl=en</property>
             <property name="currentlyAssigned" class="Boolean">true</property>
             <property name="lastKnownAttributeType" idref="1"/>
           </property>

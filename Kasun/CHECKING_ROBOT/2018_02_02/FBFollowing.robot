@@ -166,12 +166,12 @@
             <property name="lastKnownAttributeType" class="java.lang.Class" id="5">kapow.robot.plugin.common.domain.TextAttributeType</property>
           </property>
           <property name="EntityId" class="AttributeAssignment">
-            <property name="attributeValue" class="String">41459929</property>
+            <property name="attributeValue" class="String">41504047</property>
             <property name="currentlyAssigned" class="Boolean">true</property>
             <property name="lastKnownAttributeType" idref="5"/>
           </property>
           <property name="FacebookURL" class="AttributeAssignment">
-            <property name="attributeValue" class="String">https://www.facebook.com/profile.php?id=100016202958672</property>
+            <property name="attributeValue" class="String">https://www.facebook.com/profile.php?id=100006340215662</property>
             <property name="currentlyAssigned" class="Boolean">true</property>
             <property name="lastKnownAttributeType" idref="5"/>
           </property>

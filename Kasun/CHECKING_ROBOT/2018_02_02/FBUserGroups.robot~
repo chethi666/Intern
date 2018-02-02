@@ -117,12 +117,12 @@
         </property>
         <property name="assignments" class="AttributeAssignments">
           <property name="EntityId" class="AttributeAssignment">
-            <property name="attributeValue" class="String">13323805</property>
+            <property name="attributeValue" class="String">41504047</property>
             <property name="currentlyAssigned" class="Boolean">true</property>
             <property name="lastKnownAttributeType" class="java.lang.Class" id="7">kapow.robot.plugin.common.domain.TextAttributeType</property>
           </property>
           <property name="FacebookURL" class="AttributeAssignment">
-            <property name="attributeValue" class="String">https://www.facebook.com/zafir.zakaria</property>
+            <property name="attributeValue" class="String">https://www.facebook.com/profile.php?id=100006340215662</property>
             <property name="currentlyAssigned" class="Boolean">true</property>
             <property name="lastKnownAttributeType" idref="7"/>
           </property>
@@ -273,11 +273,11 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="elementFinders" class="ElementFinders">
           <object class="DefaultNamedElementAwareDOMElementFinder" serializationversion="4">
             <property name="nodePath" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
-              <property name="value" class="String">.*.div.table.*.tr[3].td[1]</property>
+              <property name="value" class="String">.*.div.table.*.td</property>
             </property>
             <property name="attributeName" class="String">class</property>
             <property name="attributeValue" class="kapow.robot.plugin.common.support.predicate.unary.string.FixedStringPredicate">
-              <property name="text" class="String">s0</property>
+              <property name="text" class="String">s1</property>
             </property>
           </object>
         </property>
@@ -286,9 +286,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
           <null/>
         </property>
         <property name="enabled" idref="12"/>
-        <property name="changedProperties" class="java.util.HashSet">
-          <element class="String">name</element>
-        </property>
+        <property name="changedProperties" class="java.util.HashSet"/>
       </object>
       <object class="Transition" serializationversion="3" id="18">
         <property name="name" class="String">Extract Document Repository</property>
