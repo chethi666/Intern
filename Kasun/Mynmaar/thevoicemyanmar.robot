@@ -658,11 +658,7 @@
           </property>
         </property>
         <property name="elementFinders" class="ElementFinders"/>
-        <property name="errorHandler" class="ErrorHandler" serializationversion="0">
-          <property name="reportingViaAPI" class="Boolean">false</property>
-          <property name="reportingViaLog" class="Boolean">false</property>
-          <property name="controlFlow" class="kapow.robot.robomaker.robot.ControlFlow$IgnoreAndContinue"/>
-        </property>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
         <property name="comment">
           <null/>
         </property>

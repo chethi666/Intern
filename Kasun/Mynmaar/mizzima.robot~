@@ -339,7 +339,11 @@
             </property>
           </object>
         </property>
-        <property name="errorHandler" class="ErrorHandler" serializationversion="0"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0">
+          <property name="reportingViaAPI" class="Boolean">false</property>
+          <property name="reportingViaLog" class="Boolean">false</property>
+          <property name="controlFlow" class="kapow.robot.robomaker.robot.ControlFlow$IgnoreAndContinue"/>
+        </property>
         <property name="comment">
           <null/>
         </property>
@@ -685,7 +689,7 @@
         <property name="comment">
           <null/>
         </property>
-        <property name="enabled" idref="7"/>
+        <property name="enabled" idref="6"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
       <object class="Transition" serializationversion="3" id="39">
@@ -700,7 +704,7 @@
         <property name="comment">
           <null/>
         </property>
-        <property name="enabled" idref="7"/>
+        <property name="enabled" idref="6"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
       <object class="Transition" serializationversion="3" id="40">
@@ -724,7 +728,7 @@
         <property name="comment">
           <null/>
         </property>
-        <property name="enabled" idref="7"/>
+        <property name="enabled" idref="6"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
       <object class="Transition" serializationversion="3" id="41">
@@ -779,7 +783,7 @@
         <property name="comment">
           <null/>
         </property>
-        <property name="enabled" idref="7"/>
+        <property name="enabled" idref="6"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
       <object class="Transition" serializationversion="3" id="42">
@@ -794,7 +798,7 @@
         <property name="comment">
           <null/>
         </property>
-        <property name="enabled" idref="7"/>
+        <property name="enabled" idref="6"/>
         <property name="changedProperties" class="java.util.HashSet"/>
       </object>
       <object class="Transition" serializationversion="3" id="43">
@@ -835,7 +839,7 @@
         <property name="name" idref="12"/>
         <property name="stepAction" class="LoadPage2">
           <property name="urlProvider" class="kapow.robot.plugin.common.stepaction.urlprovider2.ExpressionURLProvider2">
-            <property name="expression" class="String">&gt;&gt;&lt;&lt;+DynamicUrl+&gt;&gt;?page=&lt;&lt;+iteration()+&gt;&gt;&lt;&lt; </property>
+            <property name="expression" class="String">&gt;&gt;http://www.mizzima.com/news?page=&lt;&lt;+iteration()+&gt;&gt;&lt;&lt; </property>
           </property>
           <property name="browserConfigurationSpecification" class="BrowserConfigurationSpecificationWebKit" serializationversion="23">
             <property name="ancestorProvider" class="BrowserConfigurationSpecificationAncestorProviderForStep"/>
