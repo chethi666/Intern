@@ -105,6 +105,12 @@
       </property>
     </object>
     <object class="Variable" serializationversion="1">
+      <property name="name" class="String">ContentText</property>
+      <property name="initialAssignment" class="InitialVariableAssignment">
+        <property name="type" idref="0"/>
+      </property>
+    </object>
+    <object class="Variable" serializationversion="1">
       <property name="name" class="String">sourceAttachments</property>
       <property name="initialAssignment" class="InitialVariableAssignment">
         <property name="type" class="TypeReference" serializationversion="0">

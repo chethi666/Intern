@@ -362,7 +362,7 @@ Default value changed: maxWaitForTimeout 30000 -&gt; 10000</property>
         <property name="elementFinders" class="ElementFinders">
           <object class="DefaultNamedElementAwareDOMElementFinder" serializationversion="4">
             <property name="nodePath" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
-              <property name="value" class="String">.*.div.div.div.*.div.*.div.div.div.div.div.div.div.div.div.div.div.div.div.span.div.div.span.span</property>
+              <property name="value" class="String">.*.div.div.div.*.div.*.div.div.div.div.div.div.div.div.div.div.div.div.div.span.div.div.span</property>
             </property>
             <property name="attributeName" class="String">class</property>
             <property name="attributeValue" class="kapow.robot.plugin.common.support.predicate.unary.string.FixedStringPredicate">
