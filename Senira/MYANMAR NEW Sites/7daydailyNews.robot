@@ -89,7 +89,7 @@
   "ContentUrl" : "",
   "Schema" : "News",
   "Author" : "",
-  "Language" : "MM",
+  "Language" : "my",
   "Country" : "MM"
 }</property>
             <property name="currentlyAssigned" class="Boolean">true</property>
